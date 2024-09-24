@@ -260,29 +260,41 @@ def put_watermark(img, wm_encoder=None):
         img = Image.fromarray(img[:, :, ::-1])
     return img
 
-def monitor_gpu_util(gpu_util_list, mc_util_list,power_list):
+def monitor_gpu_util(n, gpu_util_list, mc_util_list, power_list):
     """
     监控GPU和MC的利用率，并将结果存储到列表中
     """
-    cmd = ['npu-smi', 'info', 'watch']
-    process = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-
-    print("=========================I'm working======================")
+    output_path = f"sd_perf/test{n}/"
+    cmd_pwr = ["npu-smi", "info", "watch"]
+    cmd_utl = ["msprof", f"--output={output_path}", "--sys-devices=all",
+            "--sys-period=300", "--ai-core=on", "--sys-hardware-mem=on"]
+    process = subprocess.Popen(cmd_pwr, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    process1 = subprocess.Popen(cmd_utl, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    # start_time = time.time()
+    # print("=========================I'm working======================")
+    head = True
     while True:
-        line = process.stdout.readline().strip()
+        # print("im here")
+        line = process.stdout.readline()
+        # print("readline exec for ")
+        # print(time.time() - start_time)
+        print(type(line))
+        if not line:
+            print("error")
         if line:
             print(line)
         # 去掉空格并按空格分割
-        parts = line.split()
-        if len(parts) > 3 and parts[2].replace('.', '', 1).isdigit():
+        parts = line.strip().split()
+        if not head:
             # 提取功率值并转换为浮点数
             print("getting power value")
             power_value = float(parts[2])
             power_list.append(power_value)
+        head = False
                 
 def main(opt):
     #test times
-    test_t = 5
+    test_t = 50
     #warm up times
     test_w = 1
     #warm up flag
@@ -291,12 +303,12 @@ def main(opt):
     timings = np.zeros((test_t, 1))
     starter, ender = torch.cuda.Event(enable_timing=True), torch.cuda.Event(enable_timing=True)
 
-    #test param set
-    param_samplers = ['dpm', 'ddim']#0
-    param_res = ['square', 'square_l', 'landscape', 'portrait', 'portrait_l', 'landscape_l', 'tall', 'widescreen']#1
-    param_batch = [1, 2, 4]#2
-    #ddim f=30 l=50, dpm solver f=20 l=50
-    param_step = ['few', 'large']#3
+    # #test param set
+    # param_samplers = ['dpm', 'ddim']#0
+    # param_res = ['square', 'square_l', 'landscape', 'portrait', 'portrait_l', 'landscape_l', 'tall', 'widescreen']#1
+    # param_batch = [1, 2, 4]#2
+    # #ddim f=30 l=50, dpm solver f=20 l=50
+    # param_step = ['few', 'large']#3
 
     # minimum test set
     param_samplers = ['dpm']
@@ -322,6 +334,7 @@ def main(opt):
         writer = csv.writer(file)
         writer.writerow(['Sampler', 'Resolution', 'Batch Size', 'Steps', 'Res_h', 'Res_w', 'Time (ms)', 'Throughput'])
 
+    n = 0
     for param_set in filtered_param_sets:
         print('\n\n\n============param is=============', param_set, '\n\n\n')
         timings = np.zeros((test_t, 1))
@@ -486,7 +499,7 @@ def main(opt):
         gpu_util_list = mp.Manager().list()
         mc_util_list = mp.Manager().list()
         power_list = mp.Manager().list()
-        monitor_process = mp.Process(target=monitor_gpu_util, args=(gpu_util_list, mc_util_list, power_list))
+        monitor_process = mp.Process(target=monitor_gpu_util, args=(param_set, power_list))
 ###     
         for t in range(test_w + test_t):
             data = [batch_size * [prompt]]
@@ -573,6 +586,7 @@ def main(opt):
         avg = timings.sum()/(batch_size * (test_t))
         throughput = 1000 / avg
         results.append({
+                    "n": n
                     "Latency (ms)": avg,
                     "Throughput (samples/s)": throughput,
                     "batch_size":batch_size,
@@ -588,7 +602,7 @@ def main(opt):
         csv_file_path = 'inference_results.csv'
         try:
             with open(csv_file_path, mode='a', newline='') as file:
-                writer = csv.DictWriter(file, fieldnames=["Latency (ms)", "Throughput (samples/s)","batch_size","sampler","steps","height","width", "GPUTL Array", "MCUTL Array","POWER Array"])
+                writer = csv.DictWriter(file, fieldnames=["n", "Latency (ms)", "Throughput (samples/s)","batch_size","sampler","steps","height","width", "GPUTL Array", "MCUTL Array","POWER Array"])
                 if file.tell() == 0:  # 检查文件指针位置，0表示文件为空
                     writer.writeheader()
 
@@ -597,6 +611,7 @@ def main(opt):
             print(f"Results successfully saved to {csv_file_path}")
         except IOError as e:
             print(f"Failed to write to CSV file: {e}")
+        n += 1
 
 
 if __name__ == "__main__":

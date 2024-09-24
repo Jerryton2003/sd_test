@@ -23,7 +23,8 @@ for i in range(n):
         hbm_df = pd.read_sql_query("SELECT * FROM HBMbwData", conn)
         hbm_df_grouped = hbm_df.groupby(hbm_df['timestamp'])['bandwidth'].sum().reset_index()
         bandwidth_avg = hbm_df_grouped['bandwidth'].mean()
-
+        if not bandwidth_avg:
+            print("im not a number")
         # 对npu util，数据格式为json,直接打开
         '''
         数据格式为形如：{"name": "Average", "ts": "1727167523354587.200", "pid": 480, "tid": 0, 

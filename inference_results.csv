@@ -1,2 +1,2 @@
-n,Latency (ms),Throughput (samples/s),batch_size,sampler,steps,height,width,POWER Avg
-0,2893.9046044921874,0.3455538922906122,1,square,20,512,512,103.97387387387387
+n,Latency (ms),Throughput (samples/s),batch_size,sampler,steps,height,width,POWER Avg,bandwidth_avg_x,npUtil_avg_x,bandwidth_avg_y,npUtil_avg_y,bandwidth_avg_x.1,npUtil_avg_x.1,bandwidth_avg_y.1,npUtil_avg_y.1,bandwidth_avg,npUtil_avg
+0,2893.9046044921874,0.3455538922906122,1,square,20,512,512,103.97387387387388,,,,,,,,,,

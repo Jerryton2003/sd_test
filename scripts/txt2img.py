@@ -304,17 +304,17 @@ def main(opt):
     starter, ender = torch.cuda.Event(enable_timing=True), torch.cuda.Event(enable_timing=True)
 
     # #test param set
-    # param_samplers = ['dpm', 'ddim']#0
-    # param_res = ['square', 'square_l', 'landscape', 'portrait', 'portrait_l', 'landscape_l', 'tall', 'widescreen']#1
-    # param_batch = [1, 2, 4]#2
-    # #ddim f=30 l=50, dpm solver f=20 l=50
-    # param_step = ['few', 'large']#3
+    param_samplers = ['dpm', 'ddim']#0
+    param_res = ['square', 'square_l', 'landscape', 'portrait', 'portrait_l', 'landscape_l', 'tall', 'widescreen']#1
+    param_batch = [1, 2, 4]#2
+    #ddim f=30 l=50, dpm solver f=20 l=50
+    param_step = ['few', 'large']#3
 
     # minimum test set
-    param_samplers = ['dpm']
-    param_res = ['square']
-    param_batch = [1]
-    param_step = ['few']
+    # param_samplers = ['dpm']
+    # param_res = ['square']
+    # param_batch = [1]
+    # param_step = ['few']
 
     param_sets = list(itertools.product(param_samplers, param_res, param_batch, param_step))
 

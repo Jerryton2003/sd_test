@@ -1,0 +1,206 @@
+{
+    "KBHit": false,
+    "binFileName": "te_Equal_a602a82685bdee6adea5061ca57db99604d353badd1ca3624e3cbdf73dfb409c",
+    "binFileSuffix": ".o",
+    "blockDim": -1,
+    "compileInfo": {
+        "_base_info": {
+            "100": [
+                30,
+                8,
+                4680,
+                2340
+            ],
+            "230": [
+                30,
+                8,
+                4676,
+                2336
+            ],
+            "320": [
+                30,
+                8,
+                4676,
+                2336
+            ]
+        },
+        "_cube_vector_core_type": "AiCore",
+        "_custom_vars": {
+            "210000000": [],
+            "210010000": [],
+            "2147483647": [],
+            "223000000": [],
+            "223010000": [],
+            "232000000": [],
+            "232010000": []
+        },
+        "_disable_optimization": false,
+        "_elewise_disable_fuse": false,
+        "_elewise_vars": {
+            "210000000": [
+                10000,
+                20000,
+                30000
+            ],
+            "210010000": [
+                10000,
+                20000,
+                30000
+            ],
+            "223000000": [
+                10000,
+                20000,
+                30000
+            ],
+            "223010000": [
+                10000,
+                20000,
+                30000
+            ],
+            "232000000": [
+                10001,
+                20000,
+                30000
+            ],
+            "232010000": [
+                10001,
+                20000,
+                30000
+            ]
+        },
+        "_enable_fractal_format": false,
+        "_enable_vector_core": false,
+        "_fusion_index": [
+            [
+                0,
+                1
+            ]
+        ],
+        "_inputs_ele_in_block": [
+            4,
+            4
+        ],
+        "_int64_mode": true,
+        "_is_const_shapes": false,
+        "_is_pure_elewise": false,
+        "_max_out_dtype_num": 32,
+        "_normal_vars": {
+            "210000000": [
+                "_dim_0_0",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "210010000": [
+                "_dim_0_0",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "2147483647": [],
+            "223000000": [
+                "_dim_0_0",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "223010000": [
+                "_dim_0_0",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "232000000": [
+                "_dim_0_1",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "232010000": [
+                "_dim_0_1",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ]
+        },
+        "_pattern": "ElemWise",
+        "_ub_block_size": 32,
+        "_ub_factor_align": 128,
+        "_unfold_mode": false,
+        "_vars": {
+            "210000000": [
+                "_dim_0_0",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "210010000": [
+                "_dim_0_0",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "2147483647": [],
+            "223000000": [
+                "_dim_0_0",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "223010000": [
+                "_dim_0_0",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "232000000": [
+                "_dim_0_1",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "232010000": [
+                "_dim_0_1",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ]
+        },
+        "device_id": "0"
+    },
+    "coreType": "AiCore",
+    "deterministic": "ignore",
+    "globalworkspace_spec_workspace": {
+        "size": 32,
+        "type": 0
+    },
+    "kernelList": [
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_equal_ffb12a7f5294c8809fd48a0f4a0c4ebfef49cfe5c7a561726040af8e4bf81f63_1_2147483647"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_equal_ffb12a7f5294c8809fd48a0f4a0c4ebfef49cfe5c7a561726040af8e4bf81f63_1_210000000"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_equal_ffb12a7f5294c8809fd48a0f4a0c4ebfef49cfe5c7a561726040af8e4bf81f63_1_210010000"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_equal_ffb12a7f5294c8809fd48a0f4a0c4ebfef49cfe5c7a561726040af8e4bf81f63_1_223000000"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_equal_ffb12a7f5294c8809fd48a0f4a0c4ebfef49cfe5c7a561726040af8e4bf81f63_1_223010000"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_equal_ffb12a7f5294c8809fd48a0f4a0c4ebfef49cfe5c7a561726040af8e4bf81f63_1_232000000"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_equal_ffb12a7f5294c8809fd48a0f4a0c4ebfef49cfe5c7a561726040af8e4bf81f63_1_232010000"
+        }
+    ],
+    "kernelName": "te_equal_ffb12a7f5294c8809fd48a0f4a0c4ebfef49cfe5c7a561726040af8e4bf81f63_1",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping": [],
+    "opParaSize": 24,
+    "parameters": [
+        null,
+        null,
+        null,
+        null
+    ],
+    "sha256": "ba632878bdb4b5680f829e054c60e156eba12ac82f4ce9bf08996133bc0368f2"
+}

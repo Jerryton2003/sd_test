@@ -1,0 +1,35 @@
+{
+    "binFileName": "te_ResizeNearestNeighborV2_a2b65494bde6d235027784d645bdc1f1b0d87acac81b8b6c956011ca90911bf4",
+    "binFileSuffix": ".o",
+    "blockDim": -1,
+    "compileInfo": {
+        "_cube_vector_core_type": "AiCore",
+        "device_id": "0",
+        "vars": {
+            "align_corners": 0,
+            "core_num": 30,
+            "half_pixel_centers": 0,
+            "max_w_len": 3968,
+            "ub_size": 253952
+        }
+    },
+    "coreType": "AiCore",
+    "deterministic": "ignore",
+    "globalworkspace_spec_workspace": {
+        "size": 32,
+        "type": 0
+    },
+    "kernelName": "te_resizenearestneighborv2_10fa62ef324a7bebf52fbc5df6979a2bc3b2713b87b10a4a88c72ef83c7ca71a_1__kernel0",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping": [
+        -1
+    ],
+    "opParaSize": 128,
+    "parameters": [
+        null,
+        null,
+        null,
+        null
+    ],
+    "sha256": "f1be895446c0373f53ed29c2281ce05041fe2b0db12f5bb718eb673be0ec69de"
+}

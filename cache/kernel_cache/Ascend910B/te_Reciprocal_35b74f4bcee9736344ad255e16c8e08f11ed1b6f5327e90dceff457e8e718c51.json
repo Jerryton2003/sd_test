@@ -1,0 +1,21 @@
+{
+    "KBHit": false,
+    "binFileName": "te_Reciprocal_35b74f4bcee9736344ad255e16c8e08f11ed1b6f5327e90dceff457e8e718c51",
+    "binFileSuffix": ".o",
+    "blockDim": 1,
+    "coreType": "AiCore",
+    "deterministic": "ignore",
+    "globalworkspace_spec_workspace": {
+        "size": 32,
+        "type": 0
+    },
+    "kernelName": "te_reciprocal_6a696d189162f296c23bb445892156d229562a47f79f2a5ddc1dc20cce90a349_1__kernel0",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping": [],
+    "opParaSize": 0,
+    "parameters": [
+        null,
+        null
+    ],
+    "sha256": "8593cdec0a92423765872f410c5d08c90736b53d4348b26a638be2b262fcc444"
+}

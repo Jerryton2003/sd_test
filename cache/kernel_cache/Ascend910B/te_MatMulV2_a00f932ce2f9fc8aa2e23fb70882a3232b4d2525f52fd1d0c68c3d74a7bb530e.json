@@ -1,0 +1,239 @@
+{
+    "binFileName": "te_MatMulV2_a00f932ce2f9fc8aa2e23fb70882a3232b4d2525f52fd1d0c68c3d74a7bb530e",
+    "binFileSuffix": ".o",
+    "blockDim": -1,
+    "compileInfo": {
+        "_cube_vector_core_type": "AiCore",
+        "_pattern": "Matmul",
+        "binary_attrs": {
+            "bias_flag": false,
+            "nd_flag": false,
+            "split_k_flag": false,
+            "weight_nz": false,
+            "zero_flag": false
+        },
+        "binary_mode_flag": true,
+        "block_dim": {},
+        "correct_range_flag": false,
+        "device_id": "0",
+        "dynamic_mode": "dynamic_mkn",
+        "format_a": "FRACTAL_NZ",
+        "format_b": "FRACTAL_NZ",
+        "fused_double_operand_num": 0,
+        "hardware_info": {
+            "BT_SIZE": 0,
+            "CORE_NUM": 30,
+            "Intrinsic_data_move_l0c2ub": true,
+            "Intrinsic_data_move_l12ub": true,
+            "Intrinsic_data_move_out2l1_nd2nz": false,
+            "Intrinsic_fix_pipe_l0c2out": false,
+            "L0A_SIZE": 65536,
+            "L0B_SIZE": 65536,
+            "L0C_SIZE": 262144,
+            "L1_SIZE": 1048576,
+            "L2_SIZE": 67108864,
+            "UB_SIZE": 262144,
+            "load3d_constraints": "1"
+        },
+        "sparse_4to2_flag": false
+    },
+    "coreType": "AiCore",
+    "deterministic": "ignore",
+    "globalworkspace_spec_workspace": {
+        "size": 32,
+        "type": 0
+    },
+    "kernelList": [
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33313"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33441"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33289"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33417"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33321"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33449"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33365"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33493"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_295465"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33320"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33448"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33360"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33488"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33346"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33474"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33361"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33489"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33347"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33475"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33355"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33483"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33354"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33482"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33362"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33490"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33300"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33428"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33332"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33460"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33364"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33492"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33281"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33409"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33280"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33408"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33312"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33440"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33288"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33416"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33363"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33491"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33301"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33429"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33333"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1_33461"
+        }
+    ],
+    "kernelName": "te_matmulv2_80c574caec16da508d41d31513dfefdac75cd38eeec38f3f558db851561566fe_1",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping": [],
+    "opParaSize": 148,
+    "parameters": [
+        null,
+        null,
+        null,
+        null
+    ],
+    "sha256": "4e3c4ce359332410c3ed0a8679a0fa855b5e98032f741ec6c73b872901d88537"
+}

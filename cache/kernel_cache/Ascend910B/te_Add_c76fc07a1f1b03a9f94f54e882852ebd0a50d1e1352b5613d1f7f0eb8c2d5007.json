@@ -1,0 +1,162 @@
+{
+    "KBHit": false,
+    "binFileName": "te_Add_c76fc07a1f1b03a9f94f54e882852ebd0a50d1e1352b5613d1f7f0eb8c2d5007",
+    "binFileSuffix": ".o",
+    "blockDim": -1,
+    "compileInfo": {
+        "_base_info": {
+            "100": [
+                30,
+                4,
+                16384,
+                8192
+            ],
+            "230": [
+                30,
+                4,
+                16368,
+                8184
+            ]
+        },
+        "_cube_vector_core_type": "AiCore",
+        "_custom_vars": {
+            "210000000": [],
+            "210010000": [],
+            "2147483647": [],
+            "223000000": [],
+            "223010000": []
+        },
+        "_disable_optimization": false,
+        "_elewise_disable_fuse": false,
+        "_elewise_vars": {
+            "210000000": [
+                10000,
+                20000,
+                30000
+            ],
+            "210010000": [
+                10000,
+                20000,
+                30000
+            ],
+            "223000000": [
+                10000,
+                20000,
+                30000
+            ],
+            "223010000": [
+                10000,
+                20000,
+                30000
+            ]
+        },
+        "_enable_fractal_format": false,
+        "_enable_vector_core": false,
+        "_fusion_index": [
+            [
+                0,
+                1,
+                2,
+                3
+            ]
+        ],
+        "_inputs_ele_in_block": [
+            16,
+            16
+        ],
+        "_int64_mode": true,
+        "_is_const_shapes": false,
+        "_is_pure_elewise": false,
+        "_max_out_dtype_num": 8,
+        "_normal_vars": {
+            "210000000": [
+                "_dim_0_0",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "210010000": [
+                "_dim_0_0",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "2147483647": [],
+            "223000000": [
+                "_dim_0_0",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "223010000": [
+                "_dim_0_0",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ]
+        },
+        "_pattern": "ElemWise",
+        "_ub_block_size": 32,
+        "_ub_factor_align": 128,
+        "_unfold_mode": true,
+        "_vars": {
+            "210000000": [
+                "_dim_0_0",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "210010000": [
+                "_dim_0_0",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "2147483647": [],
+            "223000000": [
+                "_dim_0_0",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "223010000": [
+                "_dim_0_0",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ]
+        },
+        "device_id": "0"
+    },
+    "coreType": "AiCore",
+    "deterministic": "ignore",
+    "globalworkspace_spec_workspace": {
+        "size": 32,
+        "type": 0
+    },
+    "kernelList": [
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_add_101acb7486e37495a5c85789563d95228e830d6ac05dd0cd66e0b34eedab2fd7_1_2147483647"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_add_101acb7486e37495a5c85789563d95228e830d6ac05dd0cd66e0b34eedab2fd7_1_210000000"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_add_101acb7486e37495a5c85789563d95228e830d6ac05dd0cd66e0b34eedab2fd7_1_210010000"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_add_101acb7486e37495a5c85789563d95228e830d6ac05dd0cd66e0b34eedab2fd7_1_223000000"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_add_101acb7486e37495a5c85789563d95228e830d6ac05dd0cd66e0b34eedab2fd7_1_223010000"
+        }
+    ],
+    "kernelName": "te_add_101acb7486e37495a5c85789563d95228e830d6ac05dd0cd66e0b34eedab2fd7_1",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping": [],
+    "opParaSize": 24,
+    "parameters": [
+        null,
+        null,
+        null,
+        null
+    ],
+    "sha256": "3140d9abdac70bc0d2279046cc38c9c374bc720b43421fb81c5442481c94fdb9"
+}

@@ -1,0 +1,1666 @@
+{
+    "KBHit": false,
+    "binFileName": "te_ReduceMean_438afcaaab248c4e5e062be16063325571856667dff04b0c81aec8a946972f34",
+    "binFileSuffix": ".o",
+    "blockDim": -1,
+    "compileInfo": {
+        "_common_info": [
+            30,
+            1,
+            8,
+            1,
+            1,
+            128,
+            1,
+            4,
+            true,
+            false,
+            0
+        ],
+        "_cube_vector_core_type": "AiCore",
+        "_custom_vars": {
+            "100000000500": [],
+            "100000100500": [],
+            "100001000400": [
+                "cof"
+            ],
+            "100001000900": [
+                "cof"
+            ],
+            "100001002000": [
+                "cof"
+            ],
+            "100001100400": [
+                "cof"
+            ],
+            "100001100900": [
+                "cof"
+            ],
+            "100001102000": [
+                "cof"
+            ],
+            "100001200900": [
+                "cof"
+            ],
+            "100001202000": [
+                "cof"
+            ],
+            "100001302000": [
+                "cof"
+            ],
+            "100003002000": [
+                "cof"
+            ],
+            "100003202000": [
+                "cof"
+            ],
+            "100003302000": [
+                "cof"
+            ],
+            "10000400": [
+                "cof"
+            ],
+            "10000900": [
+                "cof"
+            ],
+            "100011000900": [
+                "cof"
+            ],
+            "100011100900": [
+                "cof"
+            ],
+            "100030000500": [],
+            "100030100500": [],
+            "100031000900": [
+                "cof"
+            ],
+            "100031100900": [
+                "cof"
+            ],
+            "100031200900": [
+                "cof"
+            ],
+            "100041000900": [
+                "cof"
+            ],
+            "100041100900": [
+                "cof"
+            ],
+            "1000500": [],
+            "100400": [
+                "cof"
+            ],
+            "100900": [
+                "cof"
+            ],
+            "10100900": [
+                "cof"
+            ],
+            "102000": [
+                "cof"
+            ],
+            "1100500": [],
+            "2000": [
+                "cof"
+            ],
+            "20000400": [
+                "cof"
+            ],
+            "200900": [
+                "cof"
+            ],
+            "202000": [
+                "cof"
+            ],
+            "2100900": [
+                "cof"
+            ],
+            "2102000": [
+                "cof"
+            ],
+            "2147483647": [],
+            "2200900": [
+                "cof"
+            ],
+            "2202000": [
+                "cof"
+            ],
+            "2302000": [
+                "cof"
+            ],
+            "30000900": [
+                "cof"
+            ],
+            "30100900": [
+                "cof"
+            ],
+            "302000": [
+                "cof"
+            ],
+            "30200900": [
+                "cof"
+            ],
+            "31000500": [],
+            "31100500": [],
+            "32100900": [
+                "cof"
+            ],
+            "32200900": [
+                "cof"
+            ],
+            "400": [
+                "cof"
+            ],
+            "40000900": [
+                "cof"
+            ],
+            "40100900": [
+                "cof"
+            ],
+            "900": [
+                "cof"
+            ],
+            "9223372036854775807": []
+        },
+        "_empty_tensor_info": [
+            30,
+            8,
+            4,
+            128,
+            16384
+        ],
+        "_enable_deterministic_mode": 0,
+        "_enabled_db": false,
+        "_idx_before_reduce": 0,
+        "_int64_mode": true,
+        "_noop_with_empty_axes": 1,
+        "_normal_vars": {
+            "100000000500": [
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "100000100500": [
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "100001000400": [
+                "_dim_0",
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "100001000900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "100001002000": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_dim_3",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "100001100400": [
+                "_dim_0",
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "100001100900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "100001102000": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_dim_3",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "100001200900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "100001202000": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_dim_3",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "100001302000": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_dim_3",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "100003002000": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_dim_3",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "100003202000": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_dim_3",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "100003302000": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_dim_3",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "10000400": [
+                "_dim_0",
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "10000900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "100011000900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "100011100900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "100030000500": [
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "100030100500": [
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "100031000900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "100031100900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "100031200900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "100041000900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "100041100900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "1000500": [
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "100400": [
+                "_dim_0",
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "100900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "10100900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "102000": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_dim_3",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "1100500": [
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "2000": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_dim_3",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "20000400": [
+                "_dim_0",
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "200900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "202000": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_dim_3",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "2100900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "2102000": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_dim_3",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "2147483647": [
+                "_dim_1"
+            ],
+            "2200900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "2202000": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_dim_3",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "2302000": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_dim_3",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "30000900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "30100900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "302000": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_dim_3",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "30200900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "31000500": [
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "31100500": [
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "32100900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "32200900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "400": [
+                "_dim_0",
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "40000900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "40100900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "9223372036854775807": [
+                "_dim_0",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ]
+        },
+        "_pattern": "CommReduce",
+        "_pattern_info": [
+            5,
+            4,
+            9,
+            20
+        ],
+        "_reduce_vars": {
+            "100000000500": [
+                20001,
+                30000,
+                40000
+            ],
+            "100000100500": [
+                20001,
+                30000,
+                40000
+            ],
+            "100001000400": [
+                20000,
+                20001,
+                30000,
+                40000
+            ],
+            "100001000900": [
+                20000,
+                20001,
+                20002,
+                30000,
+                40000
+            ],
+            "100001002000": [
+                20000,
+                20001,
+                20002,
+                20003,
+                30000,
+                40000
+            ],
+            "100001100400": [
+                20000,
+                20001,
+                30000,
+                40000
+            ],
+            "100001100900": [
+                20000,
+                20001,
+                20002,
+                30000,
+                40000
+            ],
+            "100001102000": [
+                20000,
+                20001,
+                20002,
+                20003,
+                30000,
+                40000
+            ],
+            "100001200900": [
+                20000,
+                20001,
+                20002,
+                30000,
+                40000
+            ],
+            "100001202000": [
+                20000,
+                20001,
+                20002,
+                20003,
+                30000,
+                40000
+            ],
+            "100001302000": [
+                20000,
+                20001,
+                20002,
+                20003,
+                30000,
+                40000
+            ],
+            "100003002000": [
+                20000,
+                20001,
+                20002,
+                20003,
+                30000,
+                40000
+            ],
+            "100003202000": [
+                20000,
+                20001,
+                20002,
+                20003,
+                30000,
+                40000
+            ],
+            "100003302000": [
+                20000,
+                20001,
+                20002,
+                20003,
+                30000,
+                40000
+            ],
+            "10000400": [
+                20000,
+                20001,
+                30000,
+                40000
+            ],
+            "10000900": [
+                20000,
+                20001,
+                20002,
+                30000,
+                40000
+            ],
+            "100011000900": [
+                20000,
+                20001,
+                20002,
+                30000,
+                40000
+            ],
+            "100011100900": [
+                20000,
+                20001,
+                20002,
+                30000,
+                40000
+            ],
+            "100030000500": [
+                20001,
+                30000,
+                40000
+            ],
+            "100030100500": [
+                20001,
+                30000,
+                40000
+            ],
+            "100031000900": [
+                20000,
+                20001,
+                20002,
+                30000,
+                40000
+            ],
+            "100031100900": [
+                20000,
+                20001,
+                20002,
+                30000,
+                40000
+            ],
+            "100031200900": [
+                20000,
+                20001,
+                20002,
+                30000,
+                40000
+            ],
+            "100041000900": [
+                20000,
+                20001,
+                20002,
+                30000,
+                40000
+            ],
+            "100041100900": [
+                20000,
+                20001,
+                20002,
+                30000,
+                40000
+            ],
+            "1000500": [
+                20001,
+                30000,
+                40000
+            ],
+            "100400": [
+                20000,
+                20001,
+                30000,
+                40000
+            ],
+            "100900": [
+                20000,
+                20001,
+                20002,
+                30000,
+                40000
+            ],
+            "10100900": [
+                20000,
+                20001,
+                20002,
+                30000,
+                40000
+            ],
+            "102000": [
+                20000,
+                20001,
+                20002,
+                20003,
+                30000,
+                40000
+            ],
+            "1100500": [
+                20001,
+                30000,
+                40000
+            ],
+            "2000": [
+                20000,
+                20001,
+                20002,
+                20003,
+                30000,
+                40000
+            ],
+            "20000400": [
+                20000,
+                20001,
+                30000,
+                40000
+            ],
+            "200900": [
+                20000,
+                20001,
+                20002,
+                30000,
+                40000
+            ],
+            "202000": [
+                20000,
+                20001,
+                20002,
+                20003,
+                30000,
+                40000
+            ],
+            "2100900": [
+                20000,
+                20001,
+                20002,
+                30000,
+                40000
+            ],
+            "2102000": [
+                20000,
+                20001,
+                20002,
+                20003,
+                30000,
+                40000
+            ],
+            "2147483647": [
+                20001
+            ],
+            "2200900": [
+                20000,
+                20001,
+                20002,
+                30000,
+                40000
+            ],
+            "2202000": [
+                20000,
+                20001,
+                20002,
+                20003,
+                30000,
+                40000
+            ],
+            "2302000": [
+                20000,
+                20001,
+                20002,
+                20003,
+                30000,
+                40000
+            ],
+            "30000900": [
+                20000,
+                20001,
+                20002,
+                30000,
+                40000
+            ],
+            "30100900": [
+                20000,
+                20001,
+                20002,
+                30000,
+                40000
+            ],
+            "302000": [
+                20000,
+                20001,
+                20002,
+                20003,
+                30000,
+                40000
+            ],
+            "30200900": [
+                20000,
+                20001,
+                20002,
+                30000,
+                40000
+            ],
+            "31000500": [
+                20001,
+                30000,
+                40000
+            ],
+            "31100500": [
+                20001,
+                30000,
+                40000
+            ],
+            "32100900": [
+                20000,
+                20001,
+                20002,
+                30000,
+                40000
+            ],
+            "32200900": [
+                20000,
+                20001,
+                20002,
+                30000,
+                40000
+            ],
+            "400": [
+                20000,
+                20001,
+                30000,
+                40000
+            ],
+            "40000900": [
+                20000,
+                20001,
+                20002,
+                30000,
+                40000
+            ],
+            "40100900": [
+                20000,
+                20001,
+                20002,
+                30000,
+                40000
+            ],
+            "900": [
+                20000,
+                20001,
+                20002,
+                30000,
+                40000
+            ],
+            "9223372036854775807": [
+                20000,
+                30000,
+                40000
+            ]
+        },
+        "_ub_info": [
+            [
+                16256,
+                12800,
+                16256,
+                12928
+            ],
+            [
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "_ub_info_accumulation": [
+            [
+                16256,
+                0,
+                16256,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "_ub_info_entire_reduce": [
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "_ub_info_pad": [
+            [
+                0,
+                10624,
+                10752,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "_ub_info_pad_accumulation": [
+            [
+                0,
+                0,
+                10752,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "_ub_info_rf": [
+            [
+                16256,
+                12800,
+                16256,
+                12928
+            ],
+            [
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "_ub_info_transpose": [
+            [
+                0,
+                12800,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "_vars": {
+            "100000000500": [
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "100000100500": [
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "100001000400": [
+                "_dim_0",
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "100001000900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "100001002000": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_dim_3",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "100001100400": [
+                "_dim_0",
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "100001100900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "100001102000": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_dim_3",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "100001200900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "100001202000": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_dim_3",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "100001302000": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_dim_3",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "100003002000": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_dim_3",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "100003202000": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_dim_3",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "100003302000": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_dim_3",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "10000400": [
+                "_dim_0",
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "10000900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "100011000900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "100011100900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "100030000500": [
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "100030100500": [
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "100031000900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "100031100900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "100031200900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "100041000900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "100041100900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "1000500": [
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "100400": [
+                "_dim_0",
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "100900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "10100900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "102000": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_dim_3",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "1100500": [
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "2000": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_dim_3",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "20000400": [
+                "_dim_0",
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "200900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "202000": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_dim_3",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "2100900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "2102000": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_dim_3",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "2147483647": [
+                "_dim_1"
+            ],
+            "2200900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "2202000": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_dim_3",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "2302000": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_dim_3",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "30000900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "30100900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "302000": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_dim_3",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "30200900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "31000500": [
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "31100500": [
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "32100900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "32200900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "400": [
+                "_dim_0",
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "40000900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "40100900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "900": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_block_factor",
+                "_ub_factor",
+                "cof"
+            ],
+            "9223372036854775807": [
+                "_dim_0",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ]
+        },
+        "axes_idx": 1,
+        "device_id": "0",
+        "reduce_mean_cof_dtype": "float32"
+    },
+    "coreType": "AiCore",
+    "deterministic": "false",
+    "globalworkspace_spec_workspace": {
+        "size": 32,
+        "type": 0
+    },
+    "kernelList": [
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_1000500"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_31000500"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_1100500"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_31100500"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_100000000500"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_100030000500"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_100000100500"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_100030100500"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_2147483647"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_400"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_10000400"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_20000400"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_100400"
+        },
+        {
+            "deterministic": "false",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_100001000400"
+        },
+        {
+            "deterministic": "false",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_100001100400"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_900"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_10000900"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_30000900"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_40000900"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_100900"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_10100900"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_30100900"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_40100900"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_200900"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_30200900"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_2100900"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_32100900"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_2200900"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_32200900"
+        },
+        {
+            "deterministic": "false",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_100001000900"
+        },
+        {
+            "deterministic": "false",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_100011000900"
+        },
+        {
+            "deterministic": "false",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_100031000900"
+        },
+        {
+            "deterministic": "false",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_100041000900"
+        },
+        {
+            "deterministic": "false",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_100001100900"
+        },
+        {
+            "deterministic": "false",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_100011100900"
+        },
+        {
+            "deterministic": "false",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_100031100900"
+        },
+        {
+            "deterministic": "false",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_100041100900"
+        },
+        {
+            "deterministic": "false",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_100001200900"
+        },
+        {
+            "deterministic": "false",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_100031200900"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_2000"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_202000"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_102000"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_302000"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_2202000"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_2102000"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_2302000"
+        },
+        {
+            "deterministic": "false",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_100001002000"
+        },
+        {
+            "deterministic": "false",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_100001202000"
+        },
+        {
+            "deterministic": "false",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_100001102000"
+        },
+        {
+            "deterministic": "false",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_100001302000"
+        },
+        {
+            "deterministic": "false",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_100003002000"
+        },
+        {
+            "deterministic": "false",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_100003202000"
+        },
+        {
+            "deterministic": "false",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_100003302000"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1_9223372036854775807"
+        }
+    ],
+    "kernelName": "te_reducemean_3e852ae469600f2453ac08fab4b4807de973f342323c4487eaddd678852a76f3_1",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping": [],
+    "opParaSize": 52,
+    "parameters": [
+        null,
+        null,
+        {
+            "dtype": "float32",
+            "init_value": 0.0
+        },
+        null
+    ],
+    "sha256": "a4976241fb81cd280470abdb5928f05dbf5c56427337d694ce011d8807b18031"
+}

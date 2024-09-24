@@ -1,0 +1,20 @@
+{
+    "binFileName": "te_Sqrt_bb6cb3f130a91ddf53250c312746dc14a7a8462b730a5633fdb6ec33cb759ebd",
+    "binFileSuffix": ".o",
+    "blockDim": 1,
+    "coreType": "AiCore",
+    "deterministic": "ignore",
+    "globalworkspace_spec_workspace": {
+        "size": 32,
+        "type": 0
+    },
+    "kernelName": "te_sqrt_9f19616a6546a5807e2e32419afd7bc3f6b8c1bceb0c8197e8b446bd54789d8a_1__kernel0",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping": [],
+    "opParaSize": 0,
+    "parameters": [
+        null,
+        null
+    ],
+    "sha256": "f57a20f5c0e4515e63691fa9c19bc3a70e81fbfe83cdbd6fd8088711cccef793"
+}

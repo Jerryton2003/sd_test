@@ -1,0 +1,42 @@
+{
+    "binFileName": "te_MemSet_f5578f37defd66925ae2bb89a0777c8001acb3687e11321d3851a94d4d74aca7",
+    "binFileSuffix": ".o",
+    "blockDim": -1,
+    "compileInfo": {
+        "_cube_vector_core_type": "AiCore",
+        "device_id": "0",
+        "global_variable_link": true,
+        "vars": {
+            "_workspace_index_list": [
+                -1
+            ],
+            "byte_list": [
+                4
+            ],
+            "core_num": 30,
+            "is_dynamic": true,
+            "mask_nums": [
+                64
+            ],
+            "max_repeat_time": 255,
+            "ub_size": 262016,
+            "workspace_num": 1
+        }
+    },
+    "coreType": "AiCore",
+    "deterministic": "ignore",
+    "globalworkspace_spec_workspace": {
+        "size": 32,
+        "type": 0
+    },
+    "kernelName": "te_memset_b5ab7366c5d2e8038e0a714420cb9091a605b8bb7ce1719df406ad9e7661b28a_1__kernel0",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping": [],
+    "opParaSize": 64,
+    "parameters": [
+        null,
+        null,
+        null
+    ],
+    "sha256": "2005f2764cb8f81e76051b3eab77f109d2a892acdf1e73d717e68a708d6fd65d"
+}

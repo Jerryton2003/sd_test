@@ -1,0 +1,153 @@
+{
+    "binFileName": "te_Sort_52582e4d22a3422b1db55a3372784368e7441c464abd455ebf0c4b7145437a10",
+    "binFileSuffix": ".o",
+    "blockDim": -1,
+    "compileInfo": {
+        "_block_sync_tiling_keys": [
+            2017612633064079361,
+            2017612633065127937
+        ],
+        "_coexisting_num": 3,
+        "_core_num": 30,
+        "_cube_vector_core_type": "AiCore",
+        "_custom_vars": {
+            "2017612633061982208": [],
+            "2017612633063030785": [],
+            "2017612633064079361": [],
+            "2017612633065127937": [],
+            "2017612701781458944": []
+        },
+        "_normal_vars": {
+            "2017612633061982208": [
+                "_x_dim_0",
+                "_x_dim_1",
+                "_block_factor_0",
+                "_ub_factor_0_0"
+            ],
+            "2017612633063030785": [
+                "_x_dim_0",
+                "_x_dim_1",
+                "_block_factor_0",
+                "_ub_factor_0_1"
+            ],
+            "2017612633064079361": [
+                "_x_dim_0",
+                "_x_dim_1",
+                "_block_factor_0",
+                "_ub_factor_0_1"
+            ],
+            "2017612633065127937": [
+                "_x_dim_0",
+                "_x_dim_1",
+                "_block_factor_0",
+                "_ub_factor_0_1",
+                "_ub_factor_1_1"
+            ],
+            "2017612701781458944": [
+                "_x_dim_0",
+                "_x_dim_1",
+                "_block_factor_0",
+                "_ub_factor_0_0"
+            ]
+        },
+        "_op_mode": 0,
+        "_pattern": "Sort",
+        "_proposal_num": 8,
+        "_soc_version": "Ascend910",
+        "_ub_size": 261120,
+        "_vars": {
+            "2017612633061982208": [
+                "_x_dim_0",
+                "_x_dim_1",
+                "_block_factor_0",
+                "_ub_factor_0_0"
+            ],
+            "2017612633063030785": [
+                "_x_dim_0",
+                "_x_dim_1",
+                "_block_factor_0",
+                "_ub_factor_0_1"
+            ],
+            "2017612633064079361": [
+                "_x_dim_0",
+                "_x_dim_1",
+                "_block_factor_0",
+                "_ub_factor_0_1"
+            ],
+            "2017612633065127937": [
+                "_x_dim_0",
+                "_x_dim_1",
+                "_block_factor_0",
+                "_ub_factor_0_1",
+                "_ub_factor_1_1"
+            ],
+            "2017612701781458944": [
+                "_x_dim_0",
+                "_x_dim_1",
+                "_block_factor_0",
+                "_ub_factor_0_0"
+            ]
+        },
+        "_workspace_len": 3,
+        "_x_dtype_bytes": 2,
+        "device_id": "0"
+    },
+    "coreType": "AiCore",
+    "deterministic": "ignore",
+    "globalworkspace_spec_workspace": {
+        "size": 32,
+        "type": 0
+    },
+    "kernelList": [
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_sort_227ac5e6283a38c6e1b31c8c4bf3e7e3c4f8a6cab4bad1b7f67dc5c96b760053_1_2017612633061982208"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_sort_227ac5e6283a38c6e1b31c8c4bf3e7e3c4f8a6cab4bad1b7f67dc5c96b760053_1_2017612633063030785"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_sort_227ac5e6283a38c6e1b31c8c4bf3e7e3c4f8a6cab4bad1b7f67dc5c96b760053_1_2017612633064079361"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_sort_227ac5e6283a38c6e1b31c8c4bf3e7e3c4f8a6cab4bad1b7f67dc5c96b760053_1_2017612633065127937"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_sort_227ac5e6283a38c6e1b31c8c4bf3e7e3c4f8a6cab4bad1b7f67dc5c96b760053_1_2017612701781458944"
+        }
+    ],
+    "kernelName": "te_sort_227ac5e6283a38c6e1b31c8c4bf3e7e3c4f8a6cab4bad1b7f67dc5c96b760053_1",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping": [],
+    "opParaSize": 40,
+    "parameters": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+            "dtype": "float32",
+            "init_value": 0.0
+        },
+        null
+    ],
+    "sha256": "2a73f19f1d5b601b11af09744797e7dbec2229196dd234e23e118f458ddaee56",
+    "workspace": {
+        "num": 3,
+        "size": [
+            32,
+            32,
+            32
+        ],
+        "type": [
+            0,
+            0,
+            0
+        ]
+    }
+}

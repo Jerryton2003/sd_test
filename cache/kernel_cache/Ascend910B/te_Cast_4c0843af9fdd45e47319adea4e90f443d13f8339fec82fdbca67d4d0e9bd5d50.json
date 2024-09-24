@@ -1,0 +1,103 @@
+{
+    "binFileName": "te_Cast_4c0843af9fdd45e47319adea4e90f443d13f8339fec82fdbca67d4d0e9bd5d50",
+    "binFileSuffix": ".o",
+    "blockDim": -1,
+    "compileInfo": {
+        "_base_info": {
+            "100": [
+                30,
+                8,
+                8188,
+                4092
+            ]
+        },
+        "_cube_vector_core_type": "AiCore",
+        "_custom_vars": {
+            "210000000": [],
+            "210010000": [],
+            "2147483647": []
+        },
+        "_elewise_disable_fuse": false,
+        "_elewise_vars": {
+            "210000000": [
+                10000,
+                20000,
+                30000
+            ],
+            "210010000": [
+                10000,
+                20000,
+                30000
+            ]
+        },
+        "_enable_fractal_format": false,
+        "_enable_vector_core": false,
+        "_inputs_ele_in_block": [
+            16
+        ],
+        "_int64_mode": true,
+        "_is_const_shapes": false,
+        "_is_pure_elewise": true,
+        "_max_out_dtype_num": 4,
+        "_normal_vars": {
+            "210000000": [
+                "_dim_0_0",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "210010000": [
+                "_dim_0_0",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "2147483647": []
+        },
+        "_pattern": "ElemWise",
+        "_ub_block_size": 32,
+        "_ub_factor_align": 256,
+        "_vars": {
+            "210000000": [
+                "_dim_0_0",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "210010000": [
+                "_dim_0_0",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "2147483647": []
+        },
+        "device_id": "0"
+    },
+    "coreType": "AiCore",
+    "deterministic": "ignore",
+    "globalworkspace_spec_workspace": {
+        "size": 32,
+        "type": 0
+    },
+    "kernelList": [
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_cast_2346e7146d72768c4392f0395bb9e225fe8be95bab78da5296d56f04248a61a1_1_2147483647"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_cast_2346e7146d72768c4392f0395bb9e225fe8be95bab78da5296d56f04248a61a1_1_210000000"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_cast_2346e7146d72768c4392f0395bb9e225fe8be95bab78da5296d56f04248a61a1_1_210010000"
+        }
+    ],
+    "kernelName": "te_cast_2346e7146d72768c4392f0395bb9e225fe8be95bab78da5296d56f04248a61a1_1",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping": [],
+    "opParaSize": 24,
+    "parameters": [
+        null,
+        null,
+        null
+    ],
+    "sha256": "9c84769e9106bc4c16de3b71d89ce761cc7196d89f563be6b63d5366a4e28da2"
+}

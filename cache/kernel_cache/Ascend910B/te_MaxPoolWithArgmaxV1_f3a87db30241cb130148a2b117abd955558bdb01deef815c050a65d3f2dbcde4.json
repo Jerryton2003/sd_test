@@ -1,0 +1,44 @@
+{
+    "binFileName": "te_MaxPoolWithArgmaxV1_f3a87db30241cb130148a2b117abd955558bdb01deef815c050a65d3f2dbcde4",
+    "binFileSuffix": ".o",
+    "blockDim": -1,
+    "compileInfo": {
+        "_cube_vector_core_type": "AiCore",
+        "device_id": "0",
+        "vars": {
+            "ceil_mode": false,
+            "core_num": 30,
+            "ksize_h": 3,
+            "ksize_w": 3,
+            "load3d_supported": true,
+            "pad_bottom": 0,
+            "pad_left": 1,
+            "pad_right": 0,
+            "pad_top": 1,
+            "padding": 0,
+            "strides_h": 2,
+            "strides_w": 2,
+            "ub_ele": 126976
+        }
+    },
+    "coreType": "AiCore",
+    "deterministic": "ignore",
+    "globalworkspace_spec_workspace": {
+        "size": 32,
+        "type": 0
+    },
+    "kernelName": "te_maxpoolwithargmaxv1_a84dc17ea0f5fa11969f777bac6f288a523d81f3d7b044b22407edf9f8796eb5_1__kernel0",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping": [
+        -1,
+        -1
+    ],
+    "opParaSize": 128,
+    "parameters": [
+        null,
+        null,
+        null,
+        null
+    ],
+    "sha256": "17b6f6dfe1b4930fe62a4cfdc067030274364d63c8f760950cc25101ba52d323"
+}

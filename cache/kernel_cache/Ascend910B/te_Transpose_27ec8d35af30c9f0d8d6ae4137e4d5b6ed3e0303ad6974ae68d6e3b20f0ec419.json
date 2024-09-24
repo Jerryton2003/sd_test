@@ -1,0 +1,105 @@
+{
+    "binFileName": "te_Transpose_27ec8d35af30c9f0d8d6ae4137e4d5b6ed3e0303ad6974ae68d6e3b20f0ec419",
+    "binFileSuffix": ".o",
+    "blockDim": -1,
+    "compileInfo": {
+        "_cube_vector_core_type": "AiCore",
+        "device_id": "0",
+        "global_variable_link": true,
+        "vars": {
+            "cache_line": 256,
+            "core_num": 30,
+            "dtype": "float16",
+            "mte_pad": 0,
+            "ub_size": 8192,
+            "vg_cond": 0
+        }
+    },
+    "coreType": "AiCore",
+    "deterministic": "ignore",
+    "globalworkspace_spec_workspace": {
+        "size": 32,
+        "type": 0
+    },
+    "kernelList": [
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transpose_737a894901ea85c1250731f4f0e0c8a6c11bd88f05377a7e107a89b8bfa46157_1_0"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transpose_737a894901ea85c1250731f4f0e0c8a6c11bd88f05377a7e107a89b8bfa46157_1_1"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transpose_737a894901ea85c1250731f4f0e0c8a6c11bd88f05377a7e107a89b8bfa46157_1_2"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transpose_737a894901ea85c1250731f4f0e0c8a6c11bd88f05377a7e107a89b8bfa46157_1_3"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transpose_737a894901ea85c1250731f4f0e0c8a6c11bd88f05377a7e107a89b8bfa46157_1_4"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transpose_737a894901ea85c1250731f4f0e0c8a6c11bd88f05377a7e107a89b8bfa46157_1_5"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transpose_737a894901ea85c1250731f4f0e0c8a6c11bd88f05377a7e107a89b8bfa46157_1_6"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transpose_737a894901ea85c1250731f4f0e0c8a6c11bd88f05377a7e107a89b8bfa46157_1_7"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transpose_737a894901ea85c1250731f4f0e0c8a6c11bd88f05377a7e107a89b8bfa46157_1_8"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transpose_737a894901ea85c1250731f4f0e0c8a6c11bd88f05377a7e107a89b8bfa46157_1_9"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transpose_737a894901ea85c1250731f4f0e0c8a6c11bd88f05377a7e107a89b8bfa46157_1_10"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transpose_737a894901ea85c1250731f4f0e0c8a6c11bd88f05377a7e107a89b8bfa46157_1_11"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transpose_737a894901ea85c1250731f4f0e0c8a6c11bd88f05377a7e107a89b8bfa46157_1_12"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transpose_737a894901ea85c1250731f4f0e0c8a6c11bd88f05377a7e107a89b8bfa46157_1_13"
+        }
+    ],
+    "kernelName": "te_transpose_737a894901ea85c1250731f4f0e0c8a6c11bd88f05377a7e107a89b8bfa46157_1",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping": [
+        -1
+    ],
+    "opParaSize": 16384,
+    "parameters": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "sha256": "6695cf11e98e9607ca6a99737cf2c5d4272013b6ae4f53282f1eeb9d0315f79e",
+    "workspace": {
+        "num": 1,
+        "size": [
+            2048
+        ],
+        "type": [
+            0
+        ]
+    }
+}

@@ -1,0 +1,249 @@
+{
+    "KBHit": false,
+    "binFileName": "te_BNTrainingReduce_b6e05dbbe9b63deefc3a52f9881d1de8ae00be3f4eea378060d00f04f6895401",
+    "binFileSuffix": ".o",
+    "blockDim": -1,
+    "compileInfo": {
+        "_buffer_size": [
+            16256,
+            13000,
+            13000,
+            10832,
+            10832,
+            9288
+        ],
+        "_common_info": [
+            30,
+            32,
+            true,
+            false
+        ],
+        "_cube_vector_core_type": "AiCore",
+        "_custom_vars": {
+            "50000": [],
+            "50001": [],
+            "50110": [],
+            "50111": [],
+            "52000": [],
+            "52001": [],
+            "52110": [],
+            "52111": []
+        },
+        "_dim_vars": {
+            "5": [
+                0,
+                1
+            ]
+        },
+        "_discard_axis": [
+            1,
+            0,
+            0,
+            1
+        ],
+        "_fusible_code": [
+            10,
+            14
+        ],
+        "_graph_info": [
+            1,
+            4,
+            4,
+            4
+        ],
+        "_insert_top_normal_flag": false,
+        "_is_const": false,
+        "_normal_vars": {
+            "50000": [
+                "_dim_0",
+                "_dim_1",
+                "_blocka_factor",
+                "_blockr_factor",
+                "_ub_factor"
+            ],
+            "50001": [
+                "_dim_0",
+                "_dim_1",
+                "_blocka_factor",
+                "_blockr_factor",
+                "_ub_factor"
+            ],
+            "50110": [
+                "_dim_0",
+                "_dim_1",
+                "_blocka_factor",
+                "_blockr_factor",
+                "_ub_factor"
+            ],
+            "50111": [
+                "_dim_0",
+                "_dim_1",
+                "_blocka_factor",
+                "_blockr_factor",
+                "_ub_factor"
+            ],
+            "52000": [
+                "_dim_0",
+                "_dim_1",
+                "_blocka_factor",
+                "_blockr_factor",
+                "_ub_factor"
+            ],
+            "52001": [
+                "_dim_0",
+                "_dim_1",
+                "_blocka_factor",
+                "_blockr_factor",
+                "_ub_factor"
+            ],
+            "52110": [
+                "_dim_0",
+                "_dim_1",
+                "_blocka_factor",
+                "_blockr_factor",
+                "_ub_factor"
+            ],
+            "52111": [
+                "_dim_0",
+                "_dim_1",
+                "_blocka_factor",
+                "_blockr_factor",
+                "_ub_factor"
+            ]
+        },
+        "_pattern": "TupleReduce",
+        "_reduce_axis": [
+            1,
+            0,
+            1,
+            1
+        ],
+        "_runtime": true,
+        "_tilingkeys": [
+            50000,
+            50001,
+            52000,
+            52001,
+            50110,
+            50111,
+            52110,
+            52111
+        ],
+        "_vars": {
+            "50000": [
+                "_dim_0",
+                "_dim_1",
+                "_blocka_factor",
+                "_blockr_factor",
+                "_ub_factor"
+            ],
+            "50001": [
+                "_dim_0",
+                "_dim_1",
+                "_blocka_factor",
+                "_blockr_factor",
+                "_ub_factor"
+            ],
+            "50110": [
+                "_dim_0",
+                "_dim_1",
+                "_blocka_factor",
+                "_blockr_factor",
+                "_ub_factor"
+            ],
+            "50111": [
+                "_dim_0",
+                "_dim_1",
+                "_blocka_factor",
+                "_blockr_factor",
+                "_ub_factor"
+            ],
+            "52000": [
+                "_dim_0",
+                "_dim_1",
+                "_blocka_factor",
+                "_blockr_factor",
+                "_ub_factor"
+            ],
+            "52001": [
+                "_dim_0",
+                "_dim_1",
+                "_blocka_factor",
+                "_blockr_factor",
+                "_ub_factor"
+            ],
+            "52110": [
+                "_dim_0",
+                "_dim_1",
+                "_blocka_factor",
+                "_blockr_factor",
+                "_ub_factor"
+            ],
+            "52111": [
+                "_dim_0",
+                "_dim_1",
+                "_blocka_factor",
+                "_blockr_factor",
+                "_ub_factor"
+            ]
+        },
+        "device_id": "0"
+    },
+    "coreType": "AiCore",
+    "deterministic": "false",
+    "globalworkspace_spec_workspace": {
+        "size": 32,
+        "type": 0
+    },
+    "kernelList": [
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_bntrainingreduce_bc6e99b32fd5e9945572ea3874eb21a98e761b0ec4a92c4d64bf1bfc8ff7bb27_1_50000"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_bntrainingreduce_bc6e99b32fd5e9945572ea3874eb21a98e761b0ec4a92c4d64bf1bfc8ff7bb27_1_50001"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_bntrainingreduce_bc6e99b32fd5e9945572ea3874eb21a98e761b0ec4a92c4d64bf1bfc8ff7bb27_1_52000"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_bntrainingreduce_bc6e99b32fd5e9945572ea3874eb21a98e761b0ec4a92c4d64bf1bfc8ff7bb27_1_52001"
+        },
+        {
+            "deterministic": "false",
+            "kernelName": "te_bntrainingreduce_bc6e99b32fd5e9945572ea3874eb21a98e761b0ec4a92c4d64bf1bfc8ff7bb27_1_50110"
+        },
+        {
+            "deterministic": "false",
+            "kernelName": "te_bntrainingreduce_bc6e99b32fd5e9945572ea3874eb21a98e761b0ec4a92c4d64bf1bfc8ff7bb27_1_50111"
+        },
+        {
+            "deterministic": "false",
+            "kernelName": "te_bntrainingreduce_bc6e99b32fd5e9945572ea3874eb21a98e761b0ec4a92c4d64bf1bfc8ff7bb27_1_52110"
+        },
+        {
+            "deterministic": "false",
+            "kernelName": "te_bntrainingreduce_bc6e99b32fd5e9945572ea3874eb21a98e761b0ec4a92c4d64bf1bfc8ff7bb27_1_52111"
+        }
+    ],
+    "kernelName": "te_bntrainingreduce_bc6e99b32fd5e9945572ea3874eb21a98e761b0ec4a92c4d64bf1bfc8ff7bb27_1",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping": [],
+    "opParaSize": 40,
+    "parameters": [
+        null,
+        {
+            "dtype": "float32",
+            "init_value": 0.0
+        },
+        {
+            "dtype": "float32",
+            "init_value": 0.0
+        },
+        null
+    ],
+    "sha256": "597c019294629489c3eb424c4f5bbe80ccce59023948dcc51251f8402a8b0897"
+}

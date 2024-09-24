@@ -1,0 +1,150 @@
+{
+    "binFileName": "te_Pack_3455eb02fb48264a7735ba8abd25613be484a091cd89b35b7d237009052c6d27",
+    "binFileSuffix": ".o",
+    "blockDim": -1,
+    "compileInfo": {
+        "_concat_vars": [
+            [
+                false,
+                true
+            ]
+        ],
+        "_core_num": 30,
+        "_cube_vector_core_type": "AiCore",
+        "_custom_vars": {
+            "2147483647": [],
+            "3000001": [],
+            "4000000": [],
+            "4000001": [],
+            "4100000": []
+        },
+        "_int64_mode": true,
+        "_is_const": false,
+        "_is_unknown_rank": false,
+        "_normal_vars": {
+            "2147483647": [],
+            "3000001": [
+                "_dim_0_1",
+                "_block_factor_1",
+                "_ub_factor_1",
+                "_offset_1",
+                "_offset_2",
+                "_offset_3",
+                "_offset_4"
+            ],
+            "4000000": [
+                "_dim_0_1",
+                "_block_factor_0",
+                "_ub_factor_0",
+                "_ub_factor_1",
+                "_offset_1",
+                "_offset_2",
+                "_offset_3",
+                "_offset_4"
+            ],
+            "4000001": [
+                "_dim_0_1",
+                "_block_factor_1",
+                "_ub_factor_0",
+                "_ub_factor_1",
+                "_offset_1",
+                "_offset_2",
+                "_offset_3",
+                "_offset_4"
+            ],
+            "4100000": [
+                "_dim_0_1",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ]
+        },
+        "_only_const_tiling": false,
+        "_ori_axis": 0,
+        "_pattern": "Concat",
+        "_ub_block_size": 32,
+        "_ub_size": 262144,
+        "_vars": {
+            "2147483647": [],
+            "3000001": [
+                "_dim_0_1",
+                "_block_factor_1",
+                "_ub_factor_1",
+                "_offset_1",
+                "_offset_2",
+                "_offset_3",
+                "_offset_4"
+            ],
+            "4000000": [
+                "_dim_0_1",
+                "_block_factor_0",
+                "_ub_factor_0",
+                "_ub_factor_1",
+                "_offset_1",
+                "_offset_2",
+                "_offset_3",
+                "_offset_4"
+            ],
+            "4000001": [
+                "_dim_0_1",
+                "_block_factor_1",
+                "_ub_factor_0",
+                "_ub_factor_1",
+                "_offset_1",
+                "_offset_2",
+                "_offset_3",
+                "_offset_4"
+            ],
+            "4100000": [
+                "_dim_0_1",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ]
+        },
+        "attr_idx": 0,
+        "attr_name": "axis",
+        "concat_dim": 0,
+        "device_id": "0"
+    },
+    "coreType": "AiCore",
+    "deterministic": "ignore",
+    "globalworkspace_spec_workspace": {
+        "size": 32,
+        "type": 0
+    },
+    "kernelList": [
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_pack_2408848ce23ba01a8c89e7abad02560355c217d264473b86658630221a429f73_1_3000001"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_pack_2408848ce23ba01a8c89e7abad02560355c217d264473b86658630221a429f73_1_4000000"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_pack_2408848ce23ba01a8c89e7abad02560355c217d264473b86658630221a429f73_1_4000001"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_pack_2408848ce23ba01a8c89e7abad02560355c217d264473b86658630221a429f73_1_4100000"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_pack_2408848ce23ba01a8c89e7abad02560355c217d264473b86658630221a429f73_1_2147483647"
+        }
+    ],
+    "kernelName": "te_pack_2408848ce23ba01a8c89e7abad02560355c217d264473b86658630221a429f73_1",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping": [],
+    "opParaSize": 64,
+    "parameters": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "sha256": "3b9efee00d59398b175f48e3322697506de35c24ff75474e435b173f8037d6f0"
+}

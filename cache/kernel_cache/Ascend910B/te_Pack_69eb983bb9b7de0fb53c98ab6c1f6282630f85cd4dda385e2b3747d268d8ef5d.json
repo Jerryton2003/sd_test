@@ -1,0 +1,136 @@
+{
+    "binFileName": "te_Pack_69eb983bb9b7de0fb53c98ab6c1f6282630f85cd4dda385e2b3747d268d8ef5d",
+    "binFileSuffix": ".o",
+    "blockDim": -1,
+    "compileInfo": {
+        "_concat_vars": [
+            [
+                false,
+                true
+            ]
+        ],
+        "_core_num": 30,
+        "_cube_vector_core_type": "AiCore",
+        "_custom_vars": {
+            "2147483647": [],
+            "3000001": [],
+            "4000000": [],
+            "4000001": [],
+            "4100000": []
+        },
+        "_int64_mode": true,
+        "_is_const": false,
+        "_is_unknown_rank": false,
+        "_normal_vars": {
+            "2147483647": [],
+            "3000001": [
+                "_dim_0_1",
+                "_block_factor_1",
+                "_ub_factor_1",
+                "_offset_1",
+                "_offset_2"
+            ],
+            "4000000": [
+                "_dim_0_1",
+                "_block_factor_0",
+                "_ub_factor_0",
+                "_ub_factor_1",
+                "_offset_1",
+                "_offset_2"
+            ],
+            "4000001": [
+                "_dim_0_1",
+                "_block_factor_1",
+                "_ub_factor_0",
+                "_ub_factor_1",
+                "_offset_1",
+                "_offset_2"
+            ],
+            "4100000": [
+                "_dim_0_1",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ]
+        },
+        "_only_const_tiling": false,
+        "_ori_axis": 0,
+        "_pattern": "Concat",
+        "_ub_block_size": 32,
+        "_ub_size": 262144,
+        "_vars": {
+            "2147483647": [],
+            "3000001": [
+                "_dim_0_1",
+                "_block_factor_1",
+                "_ub_factor_1",
+                "_offset_1",
+                "_offset_2"
+            ],
+            "4000000": [
+                "_dim_0_1",
+                "_block_factor_0",
+                "_ub_factor_0",
+                "_ub_factor_1",
+                "_offset_1",
+                "_offset_2"
+            ],
+            "4000001": [
+                "_dim_0_1",
+                "_block_factor_1",
+                "_ub_factor_0",
+                "_ub_factor_1",
+                "_offset_1",
+                "_offset_2"
+            ],
+            "4100000": [
+                "_dim_0_1",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ]
+        },
+        "attr_idx": 0,
+        "attr_name": "axis",
+        "concat_dim": 0,
+        "device_id": "0"
+    },
+    "coreType": "AiCore",
+    "deterministic": "ignore",
+    "globalworkspace_spec_workspace": {
+        "size": 32,
+        "type": 0
+    },
+    "kernelList": [
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_pack_d25167c7fd2b15d217487c0301ab58f6f3dd65370adbe1f2481df0a70511bdee_1_3000001"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_pack_d25167c7fd2b15d217487c0301ab58f6f3dd65370adbe1f2481df0a70511bdee_1_4000000"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_pack_d25167c7fd2b15d217487c0301ab58f6f3dd65370adbe1f2481df0a70511bdee_1_4000001"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_pack_d25167c7fd2b15d217487c0301ab58f6f3dd65370adbe1f2481df0a70511bdee_1_4100000"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_pack_d25167c7fd2b15d217487c0301ab58f6f3dd65370adbe1f2481df0a70511bdee_1_2147483647"
+        }
+    ],
+    "kernelName": "te_pack_d25167c7fd2b15d217487c0301ab58f6f3dd65370adbe1f2481df0a70511bdee_1",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping": [],
+    "opParaSize": 48,
+    "parameters": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "sha256": "3226778f5fcddb39595c13e48244d9732043d9b3004379e6e24c223a0a45d07c"
+}

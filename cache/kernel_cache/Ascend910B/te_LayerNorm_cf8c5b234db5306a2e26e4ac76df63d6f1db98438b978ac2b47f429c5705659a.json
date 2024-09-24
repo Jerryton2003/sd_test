@@ -1,0 +1,298 @@
+{
+    "binFileName": "te_LayerNorm_cf8c5b234db5306a2e26e4ac76df63d6f1db98438b978ac2b47f429c5705659a",
+    "binFileSuffix": ".o",
+    "blockDim": -1,
+    "compileInfo": {
+        "_available_ub_size": {
+            "4005": [
+                21112,
+                16368,
+                15768,
+                13080,
+                21112,
+                21032
+            ],
+            "5006": [
+                16352,
+                13088,
+                13024,
+                13080,
+                16352,
+                16288
+            ]
+        },
+        "_block_size": {
+            "4005": 8,
+            "5006": 8
+        },
+        "_can_enable_auto_brcb": {
+            "4005": false,
+            "5006": false
+        },
+        "_can_enable_single_read": {
+            "4005": false,
+            "5006": false
+        },
+        "_common_info": [
+            30,
+            8,
+            128
+        ],
+        "_cube_vector_core_type": "AiCore",
+        "_custom_vars": {
+            "1000400500": [
+                "mean_cof"
+            ],
+            "1000400501": [
+                "mean_cof"
+            ],
+            "1000500610": [],
+            "1000500611": [],
+            "1200400500": [
+                "mean_cof"
+            ],
+            "1300400500": [
+                "mean_cof"
+            ],
+            "1400400500": [
+                "mean_cof"
+            ]
+        },
+        "_enable_vector_core": false,
+        "_exist_output_after_reduce": true,
+        "_exist_workspace_after_reduce": false,
+        "_fuse_axis": true,
+        "_input_type": [
+            0,
+            1,
+            1
+        ],
+        "_is_mte_at_least_one_block": true,
+        "_norm_vars": {
+            "1000400500": [
+                20000,
+                20001,
+                30000,
+                40000
+            ],
+            "1000400501": [
+                20000,
+                20001,
+                30000,
+                40000
+            ],
+            "1000500610": [
+                20001,
+                30000,
+                40000
+            ],
+            "1000500611": [
+                20001,
+                30000,
+                40000
+            ],
+            "1200400500": [
+                20000,
+                20001,
+                30000,
+                40000
+            ],
+            "1300400500": [
+                20000,
+                20001,
+                30000,
+                40000
+            ],
+            "1400400500": [
+                20000,
+                20001,
+                30000,
+                40000
+            ]
+        },
+        "_normal_vars": {
+            "1000400500": [
+                "_dim_0",
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "1000400501": [
+                "_dim_0",
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "1000500610": [
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "1000500611": [
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "1200400500": [
+                "_dim_0",
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "1300400500": [
+                "_dim_0",
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "1400400500": [
+                "_dim_0",
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ]
+        },
+        "_ori_broadcast_axis": [
+            0,
+            1
+        ],
+        "_ori_reduce_axis": [
+            2
+        ],
+        "_pattern": "Norm",
+        "_vars": {
+            "1000400500": [
+                "_dim_0",
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor",
+                "mean_cof"
+            ],
+            "1000400501": [
+                "_dim_0",
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor",
+                "mean_cof"
+            ],
+            "1000500610": [
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "1000500611": [
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "1200400500": [
+                "_dim_0",
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor",
+                "mean_cof"
+            ],
+            "1300400500": [
+                "_dim_0",
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor",
+                "mean_cof"
+            ],
+            "1400400500": [
+                "_dim_0",
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor",
+                "mean_cof"
+            ]
+        },
+        "_workspace_info": {
+            "1000400500": [
+                32
+            ],
+            "1000400501": [
+                4
+            ],
+            "1000500610": [
+                4
+            ],
+            "1000500611": [
+                32
+            ],
+            "1200400500": [
+                32
+            ],
+            "1300400500": [
+                32
+            ],
+            "1400400500": [
+                32
+            ]
+        },
+        "device_id": "0",
+        "is_support_vexp": true,
+        "is_support_vexp_pattern": true,
+        "reduce_mean_cof_dtype": "float32"
+    },
+    "coreType": "AiCore",
+    "deterministic": "ignore",
+    "globalworkspace_spec_workspace": {
+        "size": 32,
+        "type": 0
+    },
+    "kernelList": [
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_layernorm_28fe48cf8ec022463533729667c4376c79693aeea90f6754e1cea3df6c563fc5_1_1000400500"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_layernorm_28fe48cf8ec022463533729667c4376c79693aeea90f6754e1cea3df6c563fc5_1_1000400501"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_layernorm_28fe48cf8ec022463533729667c4376c79693aeea90f6754e1cea3df6c563fc5_1_1200400500"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_layernorm_28fe48cf8ec022463533729667c4376c79693aeea90f6754e1cea3df6c563fc5_1_1300400500"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_layernorm_28fe48cf8ec022463533729667c4376c79693aeea90f6754e1cea3df6c563fc5_1_1400400500"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_layernorm_28fe48cf8ec022463533729667c4376c79693aeea90f6754e1cea3df6c563fc5_1_1000500610"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_layernorm_28fe48cf8ec022463533729667c4376c79693aeea90f6754e1cea3df6c563fc5_1_1000500611"
+        }
+    ],
+    "kernelName": "te_layernorm_28fe48cf8ec022463533729667c4376c79693aeea90f6754e1cea3df6c563fc5_1",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping": [],
+    "opParaSize": 36,
+    "parameters": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "sha256": "a9489b8485eeba1a79dd8dad4b9f8e1a0fed1e09486996b63ff76416c465658d",
+    "workspace": {
+        "num": 1,
+        "size": [
+            -1
+        ],
+        "type": [
+            0
+        ]
+    }
+}

@@ -1,0 +1,141 @@
+{
+    "binFileName": "te_ConcatD_9e52a82cdaad93d3378b92ca0df581b318b26b512aaa37240a9cfa4ff60e90c1",
+    "binFileSuffix": ".o",
+    "blockDim": -1,
+    "compileInfo": {
+        "_concat_vars": [
+            [
+                false,
+                true
+            ],
+            [
+                false,
+                true
+            ]
+        ],
+        "_core_num": 30,
+        "_cube_vector_core_type": "AiCore",
+        "_custom_vars": {
+            "2147483647": [],
+            "3000001": [],
+            "4000000": [],
+            "4000001": [],
+            "4100000": []
+        },
+        "_int64_mode": true,
+        "_is_const": false,
+        "_is_unknown_rank": false,
+        "_normal_vars": {
+            "2147483647": [],
+            "3000001": [
+                "_dim_0_1",
+                "_dim_1_1",
+                "_block_factor_1",
+                "_ub_factor_1",
+                "_offset_1"
+            ],
+            "4000000": [
+                "_dim_0_1",
+                "_dim_1_1",
+                "_block_factor_0",
+                "_ub_factor_0",
+                "_ub_factor_1",
+                "_offset_1"
+            ],
+            "4000001": [
+                "_dim_0_1",
+                "_dim_1_1",
+                "_block_factor_1",
+                "_ub_factor_0",
+                "_ub_factor_1",
+                "_offset_1"
+            ],
+            "4100000": [
+                "_dim_0_1",
+                "_dim_1_1",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ]
+        },
+        "_only_const_tiling": false,
+        "_ori_axis": 0,
+        "_pattern": "Concat",
+        "_ub_block_size": 32,
+        "_ub_size": 262144,
+        "_vars": {
+            "2147483647": [],
+            "3000001": [
+                "_dim_0_1",
+                "_dim_1_1",
+                "_block_factor_1",
+                "_ub_factor_1",
+                "_offset_1"
+            ],
+            "4000000": [
+                "_dim_0_1",
+                "_dim_1_1",
+                "_block_factor_0",
+                "_ub_factor_0",
+                "_ub_factor_1",
+                "_offset_1"
+            ],
+            "4000001": [
+                "_dim_0_1",
+                "_dim_1_1",
+                "_block_factor_1",
+                "_ub_factor_0",
+                "_ub_factor_1",
+                "_offset_1"
+            ],
+            "4100000": [
+                "_dim_0_1",
+                "_dim_1_1",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ]
+        },
+        "attr_idx": 0,
+        "attr_name": "concat_dim",
+        "concat_dim": 0,
+        "device_id": "0"
+    },
+    "coreType": "AiCore",
+    "deterministic": "ignore",
+    "globalworkspace_spec_workspace": {
+        "size": 32,
+        "type": 0
+    },
+    "kernelList": [
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_concatd_b10fc5a5956a3091abb6e47ee0502ac38144e1462c98771baf3fe11aca946bfa_1_3000001"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_concatd_b10fc5a5956a3091abb6e47ee0502ac38144e1462c98771baf3fe11aca946bfa_1_4000000"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_concatd_b10fc5a5956a3091abb6e47ee0502ac38144e1462c98771baf3fe11aca946bfa_1_4000001"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_concatd_b10fc5a5956a3091abb6e47ee0502ac38144e1462c98771baf3fe11aca946bfa_1_4100000"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_concatd_b10fc5a5956a3091abb6e47ee0502ac38144e1462c98771baf3fe11aca946bfa_1_2147483647"
+        }
+    ],
+    "kernelName": "te_concatd_b10fc5a5956a3091abb6e47ee0502ac38144e1462c98771baf3fe11aca946bfa_1",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping": [],
+    "opParaSize": 48,
+    "parameters": [
+        null,
+        null,
+        null,
+        null
+    ],
+    "sha256": "4da4709eb4130f725eb95c5f7d4ffee965196c252ee0090af90b22b79489c5c5"
+}

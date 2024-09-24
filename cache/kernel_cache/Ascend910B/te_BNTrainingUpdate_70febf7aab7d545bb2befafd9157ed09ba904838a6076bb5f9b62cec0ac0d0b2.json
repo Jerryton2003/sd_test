@@ -1,0 +1,1147 @@
+{
+    "KBHit": false,
+    "binFileName": "te_BNTrainingUpdate_70febf7aab7d545bb2befafd9157ed09ba904838a6076bb5f9b62cec0ac0d0b2",
+    "binFileSuffix": ".o",
+    "blockDim": -1,
+    "compileInfo": {
+        "_all_unknown_last_const": false,
+        "_base_info": {
+            "000": [
+                30,
+                4,
+                10920,
+                5456,
+                4
+            ],
+            "100": [
+                30,
+                4,
+                9352,
+                4672
+            ],
+            "120": [
+                30,
+                4,
+                6136,
+                3064,
+                4
+            ],
+            "200": [
+                30,
+                4,
+                9344,
+                4672
+            ],
+            "888": [
+                30,
+                4,
+                10920,
+                5456,
+                4
+            ]
+        },
+        "_brc_avoid_bank_conflict": true,
+        "_compute_root_out_index": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "_contains_elewise_sch": true,
+        "_cube_vector_core_type": "AiCore",
+        "_custom_vars": {
+            "0": [
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "1": [
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "101": [
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "102": [
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "2": [
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "210000000": [
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "210010000": [
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "212000000": [
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "212000001": [
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "212000002": [
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "212000101": [
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "212000102": [
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "212010002": [
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "212010102": [
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "2147483647": [
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "220000000": [
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "220010000": [
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "488800001": [
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "488800002": [
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "488800101": [
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "488800102": [
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "488800201": [
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "488800202": [
+                "num_rec",
+                "batch_var_scalar"
+            ]
+        },
+        "_disable_optimization": false,
+        "_elewise_disable_fuse": false,
+        "_elewise_vars": {
+            "0": [
+                10000,
+                10001,
+                10002,
+                10003,
+                10004,
+                10005,
+                10006,
+                10100
+            ],
+            "1": [
+                10000,
+                10001,
+                10002,
+                10003,
+                10004,
+                10005,
+                10006,
+                10100,
+                20000,
+                30000
+            ],
+            "101": [
+                10000,
+                10001,
+                10002,
+                10003,
+                10004,
+                10005,
+                10006,
+                10100,
+                50000,
+                60000,
+                20000,
+                30000
+            ],
+            "102": [
+                10000,
+                10001,
+                10002,
+                10003,
+                10004,
+                10005,
+                10006,
+                10100,
+                50000,
+                60000,
+                20000,
+                30001
+            ],
+            "2": [
+                10000,
+                10001,
+                10002,
+                10003,
+                10004,
+                10005,
+                10006,
+                10100,
+                20000,
+                30001
+            ],
+            "210000000": [
+                10000,
+                20000,
+                30000
+            ],
+            "210010000": [
+                10000,
+                20000,
+                30000
+            ],
+            "212000000": [
+                10000,
+                10100
+            ],
+            "212000001": [
+                10000,
+                10100,
+                20000,
+                30000
+            ],
+            "212000002": [
+                10000,
+                10100,
+                20000,
+                30001
+            ],
+            "212000101": [
+                10000,
+                10100,
+                50000,
+                60000,
+                20000,
+                30000
+            ],
+            "212000102": [
+                10000,
+                10100,
+                50000,
+                60000,
+                20000,
+                30001
+            ],
+            "212010002": [
+                10000,
+                10100,
+                20000,
+                30001
+            ],
+            "212010102": [
+                10000,
+                10100,
+                50000,
+                60000,
+                20000,
+                30001
+            ],
+            "2147483647": [],
+            "220000000": [
+                10000,
+                10001,
+                10002,
+                10003,
+                10004,
+                10005,
+                10006,
+                20000,
+                30000
+            ],
+            "220010000": [
+                10000,
+                10001,
+                10002,
+                10003,
+                10004,
+                10005,
+                10006,
+                20000,
+                30000
+            ],
+            "488800001": [
+                10000,
+                10001,
+                10002,
+                10003,
+                10004,
+                10005,
+                10006,
+                10100,
+                10101,
+                10102,
+                10103,
+                10104,
+                10105,
+                10106,
+                20000,
+                30000
+            ],
+            "488800002": [
+                10000,
+                10001,
+                10002,
+                10003,
+                10004,
+                10005,
+                10006,
+                10100,
+                10101,
+                10102,
+                10103,
+                10104,
+                10105,
+                10106,
+                20000,
+                30001
+            ],
+            "488800101": [
+                10000,
+                10001,
+                10002,
+                10003,
+                10004,
+                10005,
+                10006,
+                10100,
+                10101,
+                10102,
+                10103,
+                10104,
+                10105,
+                10106,
+                50000,
+                60000,
+                20000,
+                30000
+            ],
+            "488800102": [
+                10000,
+                10001,
+                10002,
+                10003,
+                10004,
+                10005,
+                10006,
+                10100,
+                10101,
+                10102,
+                10103,
+                10104,
+                10105,
+                10106,
+                50000,
+                60000,
+                20000,
+                30001
+            ],
+            "488800201": [
+                10000,
+                10001,
+                10002,
+                10003,
+                10004,
+                10005,
+                10006,
+                10100,
+                10101,
+                10102,
+                10103,
+                10104,
+                10105,
+                10106,
+                50000,
+                60000,
+                20000,
+                30000
+            ],
+            "488800202": [
+                10000,
+                10001,
+                10002,
+                10003,
+                10004,
+                10005,
+                10006,
+                10100,
+                10101,
+                10102,
+                10103,
+                10104,
+                10105,
+                10106,
+                50000,
+                60000,
+                20000,
+                30001
+            ]
+        },
+        "_enable_fractal_format": false,
+        "_fusion_index": [
+            [
+                0,
+                1
+            ],
+            [
+                2,
+                3
+            ]
+        ],
+        "_has_all_unknown": false,
+        "_has_inplace_cache_clone": true,
+        "_has_store_align": true,
+        "_inplace_graph_all_out_indexes": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "_inplace_out_indexes": [
+            1,
+            2
+        ],
+        "_inplace_out_volume": 4096,
+        "_inplace_storage_bound": 16382,
+        "_inputs_ele_in_block": [
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16
+        ],
+        "_int64_mode": true,
+        "_is_const_shapes": false,
+        "_is_contains_compute_root_tensors": true,
+        "_is_pure_brc": false,
+        "_is_pure_elewise": false,
+        "_is_vnchwconv_align": true,
+        "_max_ele_in_block": 8,
+        "_max_out_dtype_num": 8,
+        "_normal_vars": {
+            "0": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_dim_0_3",
+                "_dim_0_4",
+                "_dim_0_5",
+                "_dim_0_6",
+                "_dim_1_0"
+            ],
+            "1": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_dim_0_3",
+                "_dim_0_4",
+                "_dim_0_5",
+                "_dim_0_6",
+                "_dim_1_0",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "101": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_dim_0_3",
+                "_dim_0_4",
+                "_dim_0_5",
+                "_dim_0_6",
+                "_dim_1_0",
+                "_inplace_block_factor",
+                "_inplace_ub_factor",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "102": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_dim_0_3",
+                "_dim_0_4",
+                "_dim_0_5",
+                "_dim_0_6",
+                "_dim_1_0",
+                "_inplace_block_factor",
+                "_inplace_ub_factor",
+                "_block_factor_0",
+                "_ub_factor_1"
+            ],
+            "2": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_dim_0_3",
+                "_dim_0_4",
+                "_dim_0_5",
+                "_dim_0_6",
+                "_dim_1_0",
+                "_block_factor_0",
+                "_ub_factor_1"
+            ],
+            "210000000": [
+                "_dim_0_0",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "210010000": [
+                "_dim_0_0",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "212000000": [
+                "_dim_0_0",
+                "_dim_1_0"
+            ],
+            "212000001": [
+                "_dim_0_0",
+                "_dim_1_0",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "212000002": [
+                "_dim_0_0",
+                "_dim_1_0",
+                "_block_factor_0",
+                "_ub_factor_1"
+            ],
+            "212000101": [
+                "_dim_0_0",
+                "_dim_1_0",
+                "_inplace_block_factor",
+                "_inplace_ub_factor",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "212000102": [
+                "_dim_0_0",
+                "_dim_1_0",
+                "_inplace_block_factor",
+                "_inplace_ub_factor",
+                "_block_factor_0",
+                "_ub_factor_1"
+            ],
+            "212010002": [
+                "_dim_0_0",
+                "_dim_1_0",
+                "_block_factor_0",
+                "_ub_factor_1"
+            ],
+            "212010102": [
+                "_dim_0_0",
+                "_dim_1_0",
+                "_inplace_block_factor",
+                "_inplace_ub_factor",
+                "_block_factor_0",
+                "_ub_factor_1"
+            ],
+            "2147483647": [],
+            "220000000": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_dim_0_3",
+                "_dim_0_4",
+                "_dim_0_5",
+                "_dim_0_6",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "220010000": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_dim_0_3",
+                "_dim_0_4",
+                "_dim_0_5",
+                "_dim_0_6",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "488800001": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_dim_0_3",
+                "_dim_0_4",
+                "_dim_0_5",
+                "_dim_0_6",
+                "_dim_1_0",
+                "_dim_1_1",
+                "_dim_1_2",
+                "_dim_1_3",
+                "_dim_1_4",
+                "_dim_1_5",
+                "_dim_1_6",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "488800002": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_dim_0_3",
+                "_dim_0_4",
+                "_dim_0_5",
+                "_dim_0_6",
+                "_dim_1_0",
+                "_dim_1_1",
+                "_dim_1_2",
+                "_dim_1_3",
+                "_dim_1_4",
+                "_dim_1_5",
+                "_dim_1_6",
+                "_block_factor_0",
+                "_ub_factor_1"
+            ],
+            "488800101": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_dim_0_3",
+                "_dim_0_4",
+                "_dim_0_5",
+                "_dim_0_6",
+                "_dim_1_0",
+                "_dim_1_1",
+                "_dim_1_2",
+                "_dim_1_3",
+                "_dim_1_4",
+                "_dim_1_5",
+                "_dim_1_6",
+                "_inplace_block_factor",
+                "_inplace_ub_factor",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "488800102": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_dim_0_3",
+                "_dim_0_4",
+                "_dim_0_5",
+                "_dim_0_6",
+                "_dim_1_0",
+                "_dim_1_1",
+                "_dim_1_2",
+                "_dim_1_3",
+                "_dim_1_4",
+                "_dim_1_5",
+                "_dim_1_6",
+                "_inplace_block_factor",
+                "_inplace_ub_factor",
+                "_block_factor_0",
+                "_ub_factor_1"
+            ],
+            "488800201": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_dim_0_3",
+                "_dim_0_4",
+                "_dim_0_5",
+                "_dim_0_6",
+                "_dim_1_0",
+                "_dim_1_1",
+                "_dim_1_2",
+                "_dim_1_3",
+                "_dim_1_4",
+                "_dim_1_5",
+                "_dim_1_6",
+                "_inplace_block_factor",
+                "_inplace_ub_factor",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "488800202": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_dim_0_3",
+                "_dim_0_4",
+                "_dim_0_5",
+                "_dim_0_6",
+                "_dim_1_0",
+                "_dim_1_1",
+                "_dim_1_2",
+                "_dim_1_3",
+                "_dim_1_4",
+                "_dim_1_5",
+                "_dim_1_6",
+                "_inplace_block_factor",
+                "_inplace_ub_factor",
+                "_block_factor_0",
+                "_ub_factor_1"
+            ]
+        },
+        "_only_const_tiling": false,
+        "_pattern": "Broadcast",
+        "_soc_version": "Ascend910",
+        "_support_absorbable_broadcast": false,
+        "_support_broadcast": true,
+        "_ub_block_size": 32,
+        "_ub_factor_align": 128,
+        "_unfold_mode": false,
+        "_unknown_rank": false,
+        "_use_special_pattern": true,
+        "_vars": {
+            "0": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_dim_0_3",
+                "_dim_0_4",
+                "_dim_0_5",
+                "_dim_0_6",
+                "_dim_1_0",
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "1": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_dim_0_3",
+                "_dim_0_4",
+                "_dim_0_5",
+                "_dim_0_6",
+                "_dim_1_0",
+                "_block_factor_0",
+                "_ub_factor_0",
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "101": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_dim_0_3",
+                "_dim_0_4",
+                "_dim_0_5",
+                "_dim_0_6",
+                "_dim_1_0",
+                "_inplace_block_factor",
+                "_inplace_ub_factor",
+                "_block_factor_0",
+                "_ub_factor_0",
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "102": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_dim_0_3",
+                "_dim_0_4",
+                "_dim_0_5",
+                "_dim_0_6",
+                "_dim_1_0",
+                "_inplace_block_factor",
+                "_inplace_ub_factor",
+                "_block_factor_0",
+                "_ub_factor_1",
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "2": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_dim_0_3",
+                "_dim_0_4",
+                "_dim_0_5",
+                "_dim_0_6",
+                "_dim_1_0",
+                "_block_factor_0",
+                "_ub_factor_1",
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "210000000": [
+                "_dim_0_0",
+                "_block_factor_0",
+                "_ub_factor_0",
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "210010000": [
+                "_dim_0_0",
+                "_block_factor_0",
+                "_ub_factor_0",
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "212000000": [
+                "_dim_0_0",
+                "_dim_1_0",
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "212000001": [
+                "_dim_0_0",
+                "_dim_1_0",
+                "_block_factor_0",
+                "_ub_factor_0",
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "212000002": [
+                "_dim_0_0",
+                "_dim_1_0",
+                "_block_factor_0",
+                "_ub_factor_1",
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "212000101": [
+                "_dim_0_0",
+                "_dim_1_0",
+                "_inplace_block_factor",
+                "_inplace_ub_factor",
+                "_block_factor_0",
+                "_ub_factor_0",
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "212000102": [
+                "_dim_0_0",
+                "_dim_1_0",
+                "_inplace_block_factor",
+                "_inplace_ub_factor",
+                "_block_factor_0",
+                "_ub_factor_1",
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "212010002": [
+                "_dim_0_0",
+                "_dim_1_0",
+                "_block_factor_0",
+                "_ub_factor_1",
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "212010102": [
+                "_dim_0_0",
+                "_dim_1_0",
+                "_inplace_block_factor",
+                "_inplace_ub_factor",
+                "_block_factor_0",
+                "_ub_factor_1",
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "2147483647": [
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "220000000": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_dim_0_3",
+                "_dim_0_4",
+                "_dim_0_5",
+                "_dim_0_6",
+                "_block_factor_0",
+                "_ub_factor_0",
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "220010000": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_dim_0_3",
+                "_dim_0_4",
+                "_dim_0_5",
+                "_dim_0_6",
+                "_block_factor_0",
+                "_ub_factor_0",
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "488800001": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_dim_0_3",
+                "_dim_0_4",
+                "_dim_0_5",
+                "_dim_0_6",
+                "_dim_1_0",
+                "_dim_1_1",
+                "_dim_1_2",
+                "_dim_1_3",
+                "_dim_1_4",
+                "_dim_1_5",
+                "_dim_1_6",
+                "_block_factor_0",
+                "_ub_factor_0",
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "488800002": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_dim_0_3",
+                "_dim_0_4",
+                "_dim_0_5",
+                "_dim_0_6",
+                "_dim_1_0",
+                "_dim_1_1",
+                "_dim_1_2",
+                "_dim_1_3",
+                "_dim_1_4",
+                "_dim_1_5",
+                "_dim_1_6",
+                "_block_factor_0",
+                "_ub_factor_1",
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "488800101": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_dim_0_3",
+                "_dim_0_4",
+                "_dim_0_5",
+                "_dim_0_6",
+                "_dim_1_0",
+                "_dim_1_1",
+                "_dim_1_2",
+                "_dim_1_3",
+                "_dim_1_4",
+                "_dim_1_5",
+                "_dim_1_6",
+                "_inplace_block_factor",
+                "_inplace_ub_factor",
+                "_block_factor_0",
+                "_ub_factor_0",
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "488800102": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_dim_0_3",
+                "_dim_0_4",
+                "_dim_0_5",
+                "_dim_0_6",
+                "_dim_1_0",
+                "_dim_1_1",
+                "_dim_1_2",
+                "_dim_1_3",
+                "_dim_1_4",
+                "_dim_1_5",
+                "_dim_1_6",
+                "_inplace_block_factor",
+                "_inplace_ub_factor",
+                "_block_factor_0",
+                "_ub_factor_1",
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "488800201": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_dim_0_3",
+                "_dim_0_4",
+                "_dim_0_5",
+                "_dim_0_6",
+                "_dim_1_0",
+                "_dim_1_1",
+                "_dim_1_2",
+                "_dim_1_3",
+                "_dim_1_4",
+                "_dim_1_5",
+                "_dim_1_6",
+                "_inplace_block_factor",
+                "_inplace_ub_factor",
+                "_block_factor_0",
+                "_ub_factor_0",
+                "num_rec",
+                "batch_var_scalar"
+            ],
+            "488800202": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_dim_0_3",
+                "_dim_0_4",
+                "_dim_0_5",
+                "_dim_0_6",
+                "_dim_1_0",
+                "_dim_1_1",
+                "_dim_1_2",
+                "_dim_1_3",
+                "_dim_1_4",
+                "_dim_1_5",
+                "_dim_1_6",
+                "_inplace_block_factor",
+                "_inplace_ub_factor",
+                "_block_factor_0",
+                "_ub_factor_1",
+                "num_rec",
+                "batch_var_scalar"
+            ]
+        },
+        "device_id": "0"
+    },
+    "coreType": "AiCore",
+    "deterministic": "ignore",
+    "globalworkspace_spec_workspace": {
+        "size": 32,
+        "type": 0
+    },
+    "kernelList": [
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_bntrainingupdate_97c771730cf0a6f92342b0fcc39127d3b3e205efab7d70aa29c9f004e56742d0_1_2147483647"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_bntrainingupdate_97c771730cf0a6f92342b0fcc39127d3b3e205efab7d70aa29c9f004e56742d0_1_210000000"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_bntrainingupdate_97c771730cf0a6f92342b0fcc39127d3b3e205efab7d70aa29c9f004e56742d0_1_210010000"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_bntrainingupdate_97c771730cf0a6f92342b0fcc39127d3b3e205efab7d70aa29c9f004e56742d0_1_220000000"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_bntrainingupdate_97c771730cf0a6f92342b0fcc39127d3b3e205efab7d70aa29c9f004e56742d0_1_220010000"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_bntrainingupdate_97c771730cf0a6f92342b0fcc39127d3b3e205efab7d70aa29c9f004e56742d0_1_212000000"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_bntrainingupdate_97c771730cf0a6f92342b0fcc39127d3b3e205efab7d70aa29c9f004e56742d0_1_212000001"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_bntrainingupdate_97c771730cf0a6f92342b0fcc39127d3b3e205efab7d70aa29c9f004e56742d0_1_212000002"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_bntrainingupdate_97c771730cf0a6f92342b0fcc39127d3b3e205efab7d70aa29c9f004e56742d0_1_212010002"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_bntrainingupdate_97c771730cf0a6f92342b0fcc39127d3b3e205efab7d70aa29c9f004e56742d0_1_212000101"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_bntrainingupdate_97c771730cf0a6f92342b0fcc39127d3b3e205efab7d70aa29c9f004e56742d0_1_212000102"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_bntrainingupdate_97c771730cf0a6f92342b0fcc39127d3b3e205efab7d70aa29c9f004e56742d0_1_212010102"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_bntrainingupdate_97c771730cf0a6f92342b0fcc39127d3b3e205efab7d70aa29c9f004e56742d0_1_0"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_bntrainingupdate_97c771730cf0a6f92342b0fcc39127d3b3e205efab7d70aa29c9f004e56742d0_1_1"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_bntrainingupdate_97c771730cf0a6f92342b0fcc39127d3b3e205efab7d70aa29c9f004e56742d0_1_2"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_bntrainingupdate_97c771730cf0a6f92342b0fcc39127d3b3e205efab7d70aa29c9f004e56742d0_1_101"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_bntrainingupdate_97c771730cf0a6f92342b0fcc39127d3b3e205efab7d70aa29c9f004e56742d0_1_102"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_bntrainingupdate_97c771730cf0a6f92342b0fcc39127d3b3e205efab7d70aa29c9f004e56742d0_1_488800001"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_bntrainingupdate_97c771730cf0a6f92342b0fcc39127d3b3e205efab7d70aa29c9f004e56742d0_1_488800002"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_bntrainingupdate_97c771730cf0a6f92342b0fcc39127d3b3e205efab7d70aa29c9f004e56742d0_1_488800101"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_bntrainingupdate_97c771730cf0a6f92342b0fcc39127d3b3e205efab7d70aa29c9f004e56742d0_1_488800201"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_bntrainingupdate_97c771730cf0a6f92342b0fcc39127d3b3e205efab7d70aa29c9f004e56742d0_1_488800102"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_bntrainingupdate_97c771730cf0a6f92342b0fcc39127d3b3e205efab7d70aa29c9f004e56742d0_1_488800202"
+        }
+    ],
+    "kernelName": "te_bntrainingupdate_97c771730cf0a6f92342b0fcc39127d3b3e205efab7d70aa29c9f004e56742d0_1",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping": [],
+    "opParaSize": 152,
+    "parameters": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "sha256": "8d7c7b3f148cbb825b17a693a2178df0c43e2f1155a4cb54e1cdd39daaeedb1c"
+}

@@ -1,0 +1,35 @@
+{
+    "binFileName": "te_GatherElements_6f9f8100f1719dfa86b5a4c9392866a554cfc03f448e6edee8f46ab2514050e4",
+    "binFileSuffix": ".o",
+    "blockDim": -1,
+    "compileInfo": {
+        "_cube_vector_core_type": "AiCore",
+        "device_id": "0",
+        "vars": {
+            "core_num": 30,
+            "indices_dsize": 8,
+            "params_dsize": 4,
+            "support_vgather": 0,
+            "ub_size": 262144
+        }
+    },
+    "coreType": "AiCore",
+    "deterministic": "ignore",
+    "globalworkspace_spec_workspace": {
+        "size": 32,
+        "type": 0
+    },
+    "kernelName": "te_gatherelements_8fca873f00b0cf7ff9d14eeb5bd5ccb4f22d820cf24204f9af164cc34d0723a7_1__kernel0",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping": [
+        -1
+    ],
+    "opParaSize": 344,
+    "parameters": [
+        null,
+        null,
+        null,
+        null
+    ],
+    "sha256": "102944e3e855d303834635c84ce3daf10a83942ff8e28ef4d4aba7c56d340c74"
+}

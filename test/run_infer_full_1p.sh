@@ -1,0 +1,13 @@
+ python scripts/txt2img.py \
+        --prompt "a professional photograph of an astronaut riding a horse" \
+        --ckpt /home/zkyd/jrj/v2-1_768-ema-pruned.ckpt \
+        --config v2-inference-v.yaml \
+        --H 256 \
+        --W 256 \
+        --device_id 0 \
+        --precision full \
+	--bf16 \
+        --n_samples 1 \
+        --n_iter 1 \
+        --dpm \
+        --steps 15

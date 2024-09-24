@@ -1,0 +1,614 @@
+{
+    "binFileName": "te_Addcmul_99f9cc32478a1880759c4b3317706f1bc0f2e5a8e8f3c25a04522a081d0ad454",
+    "binFileSuffix": ".o",
+    "blockDim": -1,
+    "compileInfo": {
+        "_all_unknown_last_const": false,
+        "_base_info": {
+            "000": [
+                30,
+                4,
+                13104,
+                6552,
+                4
+            ],
+            "100": [
+                30,
+                4,
+                13104,
+                6552
+            ],
+            "200": [
+                30,
+                4,
+                10904,
+                5448
+            ],
+            "888": [
+                30,
+                4,
+                16376,
+                8184,
+                4
+            ],
+            "999": [
+                30,
+                4,
+                13104,
+                6552,
+                4
+            ]
+        },
+        "_brc_avoid_bank_conflict": true,
+        "_contains_elewise_sch": true,
+        "_cube_vector_core_type": "AiCore",
+        "_custom_vars": {
+            "0": [],
+            "1": [],
+            "2": [],
+            "210000000": [],
+            "210010000": [],
+            "2147483647": [],
+            "220000000": [],
+            "220010000": [],
+            "299900000": [],
+            "299900001": [],
+            "299900002": [],
+            "3": [],
+            "488800001": [],
+            "488800002": [],
+            "488800003": []
+        },
+        "_disable_optimization": false,
+        "_elewise_disable_fuse": false,
+        "_elewise_vars": {
+            "0": [
+                10001,
+                10100,
+                10101,
+                10102,
+                10201
+            ],
+            "1": [
+                10001,
+                10100,
+                10101,
+                10102,
+                10201,
+                20000,
+                30000
+            ],
+            "2": [
+                10001,
+                10100,
+                10101,
+                10102,
+                10201,
+                20000,
+                30001
+            ],
+            "210000000": [
+                10000,
+                20000,
+                30000
+            ],
+            "210010000": [
+                10000,
+                20000,
+                30000
+            ],
+            "2147483647": [],
+            "220000000": [
+                10000,
+                10001,
+                10002,
+                20000,
+                30000
+            ],
+            "220010000": [
+                10000,
+                10001,
+                10002,
+                20000,
+                30000
+            ],
+            "299900000": [
+                10000,
+                10001,
+                10002,
+                10003,
+                10100,
+                10101,
+                10102,
+                10103
+            ],
+            "299900001": [
+                10000,
+                10001,
+                10002,
+                10003,
+                10100,
+                10101,
+                10102,
+                10103,
+                20000,
+                30000
+            ],
+            "299900002": [
+                10000,
+                10001,
+                10002,
+                10003,
+                10100,
+                10101,
+                10102,
+                10103,
+                20000,
+                30001
+            ],
+            "3": [
+                10001,
+                10100,
+                10101,
+                10102,
+                10201,
+                20000,
+                30002
+            ],
+            "488800001": [
+                10000,
+                10001,
+                10002,
+                10003,
+                10100,
+                10101,
+                10102,
+                10103,
+                10200,
+                10201,
+                10202,
+                10203,
+                20000,
+                30000
+            ],
+            "488800002": [
+                10000,
+                10001,
+                10002,
+                10003,
+                10100,
+                10101,
+                10102,
+                10103,
+                10200,
+                10201,
+                10202,
+                10203,
+                20000,
+                30001
+            ],
+            "488800003": [
+                10000,
+                10001,
+                10002,
+                10003,
+                10100,
+                10101,
+                10102,
+                10103,
+                10200,
+                10201,
+                10202,
+                10203,
+                20000,
+                30002
+            ]
+        },
+        "_enable_fractal_format": false,
+        "_fusion_index": [
+            [
+                0
+            ],
+            [
+                1
+            ],
+            [
+                2,
+                3
+            ]
+        ],
+        "_has_all_unknown": true,
+        "_has_store_align": true,
+        "_inputs_ele_in_block": [
+            16,
+            16,
+            16,
+            16
+        ],
+        "_int64_mode": true,
+        "_is_const_shapes": false,
+        "_is_pure_brc": false,
+        "_is_pure_elewise": false,
+        "_is_vnchwconv_align": true,
+        "_max_ele_in_block": 8,
+        "_max_out_dtype_num": 8,
+        "_normal_vars": {
+            "0": [
+                "_dim_0_1",
+                "_dim_1_0",
+                "_dim_1_1",
+                "_dim_1_2",
+                "_dim_2_1"
+            ],
+            "1": [
+                "_dim_0_1",
+                "_dim_1_0",
+                "_dim_1_1",
+                "_dim_1_2",
+                "_dim_2_1",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "2": [
+                "_dim_0_1",
+                "_dim_1_0",
+                "_dim_1_1",
+                "_dim_1_2",
+                "_dim_2_1",
+                "_block_factor_0",
+                "_ub_factor_1"
+            ],
+            "210000000": [
+                "_dim_0_0",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "210010000": [
+                "_dim_0_0",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "2147483647": [],
+            "220000000": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "220010000": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "299900000": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_dim_0_3",
+                "_dim_1_0",
+                "_dim_1_1",
+                "_dim_1_2",
+                "_dim_1_3"
+            ],
+            "299900001": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_dim_0_3",
+                "_dim_1_0",
+                "_dim_1_1",
+                "_dim_1_2",
+                "_dim_1_3",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "299900002": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_dim_0_3",
+                "_dim_1_0",
+                "_dim_1_1",
+                "_dim_1_2",
+                "_dim_1_3",
+                "_block_factor_0",
+                "_ub_factor_1"
+            ],
+            "3": [
+                "_dim_0_1",
+                "_dim_1_0",
+                "_dim_1_1",
+                "_dim_1_2",
+                "_dim_2_1",
+                "_block_factor_0",
+                "_ub_factor_2"
+            ],
+            "488800001": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_dim_0_3",
+                "_dim_1_0",
+                "_dim_1_1",
+                "_dim_1_2",
+                "_dim_1_3",
+                "_dim_2_0",
+                "_dim_2_1",
+                "_dim_2_2",
+                "_dim_2_3",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "488800002": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_dim_0_3",
+                "_dim_1_0",
+                "_dim_1_1",
+                "_dim_1_2",
+                "_dim_1_3",
+                "_dim_2_0",
+                "_dim_2_1",
+                "_dim_2_2",
+                "_dim_2_3",
+                "_block_factor_0",
+                "_ub_factor_1"
+            ],
+            "488800003": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_dim_0_3",
+                "_dim_1_0",
+                "_dim_1_1",
+                "_dim_1_2",
+                "_dim_1_3",
+                "_dim_2_0",
+                "_dim_2_1",
+                "_dim_2_2",
+                "_dim_2_3",
+                "_block_factor_0",
+                "_ub_factor_2"
+            ]
+        },
+        "_only_const_tiling": false,
+        "_pattern": "Broadcast",
+        "_soc_version": "Ascend910",
+        "_support_absorbable_broadcast": false,
+        "_support_broadcast": true,
+        "_ub_block_size": 32,
+        "_ub_factor_align": 128,
+        "_unfold_mode": false,
+        "_unknown_rank": false,
+        "_use_special_pattern": true,
+        "_vars": {
+            "0": [
+                "_dim_0_1",
+                "_dim_1_0",
+                "_dim_1_1",
+                "_dim_1_2",
+                "_dim_2_1"
+            ],
+            "1": [
+                "_dim_0_1",
+                "_dim_1_0",
+                "_dim_1_1",
+                "_dim_1_2",
+                "_dim_2_1",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "2": [
+                "_dim_0_1",
+                "_dim_1_0",
+                "_dim_1_1",
+                "_dim_1_2",
+                "_dim_2_1",
+                "_block_factor_0",
+                "_ub_factor_1"
+            ],
+            "210000000": [
+                "_dim_0_0",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "210010000": [
+                "_dim_0_0",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "2147483647": [],
+            "220000000": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "220010000": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "299900000": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_dim_0_3",
+                "_dim_1_0",
+                "_dim_1_1",
+                "_dim_1_2",
+                "_dim_1_3"
+            ],
+            "299900001": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_dim_0_3",
+                "_dim_1_0",
+                "_dim_1_1",
+                "_dim_1_2",
+                "_dim_1_3",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "299900002": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_dim_0_3",
+                "_dim_1_0",
+                "_dim_1_1",
+                "_dim_1_2",
+                "_dim_1_3",
+                "_block_factor_0",
+                "_ub_factor_1"
+            ],
+            "3": [
+                "_dim_0_1",
+                "_dim_1_0",
+                "_dim_1_1",
+                "_dim_1_2",
+                "_dim_2_1",
+                "_block_factor_0",
+                "_ub_factor_2"
+            ],
+            "488800001": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_dim_0_3",
+                "_dim_1_0",
+                "_dim_1_1",
+                "_dim_1_2",
+                "_dim_1_3",
+                "_dim_2_0",
+                "_dim_2_1",
+                "_dim_2_2",
+                "_dim_2_3",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ],
+            "488800002": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_dim_0_3",
+                "_dim_1_0",
+                "_dim_1_1",
+                "_dim_1_2",
+                "_dim_1_3",
+                "_dim_2_0",
+                "_dim_2_1",
+                "_dim_2_2",
+                "_dim_2_3",
+                "_block_factor_0",
+                "_ub_factor_1"
+            ],
+            "488800003": [
+                "_dim_0_0",
+                "_dim_0_1",
+                "_dim_0_2",
+                "_dim_0_3",
+                "_dim_1_0",
+                "_dim_1_1",
+                "_dim_1_2",
+                "_dim_1_3",
+                "_dim_2_0",
+                "_dim_2_1",
+                "_dim_2_2",
+                "_dim_2_3",
+                "_block_factor_0",
+                "_ub_factor_2"
+            ]
+        },
+        "device_id": "0"
+    },
+    "coreType": "AiCore",
+    "deterministic": "ignore",
+    "globalworkspace_spec_workspace": {
+        "size": 32,
+        "type": 0
+    },
+    "kernelList": [
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_addcmul_9dffdd39caba852cf4aed3fb19b6ce12699e654810eb04ebfa7e7a50b4c62d53_1_2147483647"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_addcmul_9dffdd39caba852cf4aed3fb19b6ce12699e654810eb04ebfa7e7a50b4c62d53_1_210000000"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_addcmul_9dffdd39caba852cf4aed3fb19b6ce12699e654810eb04ebfa7e7a50b4c62d53_1_210010000"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_addcmul_9dffdd39caba852cf4aed3fb19b6ce12699e654810eb04ebfa7e7a50b4c62d53_1_220000000"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_addcmul_9dffdd39caba852cf4aed3fb19b6ce12699e654810eb04ebfa7e7a50b4c62d53_1_220010000"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_addcmul_9dffdd39caba852cf4aed3fb19b6ce12699e654810eb04ebfa7e7a50b4c62d53_1_0"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_addcmul_9dffdd39caba852cf4aed3fb19b6ce12699e654810eb04ebfa7e7a50b4c62d53_1_1"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_addcmul_9dffdd39caba852cf4aed3fb19b6ce12699e654810eb04ebfa7e7a50b4c62d53_1_2"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_addcmul_9dffdd39caba852cf4aed3fb19b6ce12699e654810eb04ebfa7e7a50b4c62d53_1_3"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_addcmul_9dffdd39caba852cf4aed3fb19b6ce12699e654810eb04ebfa7e7a50b4c62d53_1_488800001"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_addcmul_9dffdd39caba852cf4aed3fb19b6ce12699e654810eb04ebfa7e7a50b4c62d53_1_488800002"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_addcmul_9dffdd39caba852cf4aed3fb19b6ce12699e654810eb04ebfa7e7a50b4c62d53_1_488800003"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_addcmul_9dffdd39caba852cf4aed3fb19b6ce12699e654810eb04ebfa7e7a50b4c62d53_1_299900000"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_addcmul_9dffdd39caba852cf4aed3fb19b6ce12699e654810eb04ebfa7e7a50b4c62d53_1_299900001"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_addcmul_9dffdd39caba852cf4aed3fb19b6ce12699e654810eb04ebfa7e7a50b4c62d53_1_299900002"
+        }
+    ],
+    "kernelName": "te_addcmul_9dffdd39caba852cf4aed3fb19b6ce12699e654810eb04ebfa7e7a50b4c62d53_1",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping": [],
+    "opParaSize": 112,
+    "parameters": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "sha256": "0cadff9de5a8a521d60898b85f14d81b9bcec59e45aff348634738f6df41c43e"
+}

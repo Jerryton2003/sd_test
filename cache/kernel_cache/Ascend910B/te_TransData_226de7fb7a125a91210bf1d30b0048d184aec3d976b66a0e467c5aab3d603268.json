@@ -1,0 +1,756 @@
+{
+    "binFileName": "te_TransData_226de7fb7a125a91210bf1d30b0048d184aec3d976b66a0e467c5aab3d603268",
+    "binFileSuffix": ".o",
+    "blockDim": -1,
+    "compileInfo": {
+        "_c0_list": [
+            16
+        ],
+        "_common_info": [
+            1,
+            16,
+            30,
+            0,
+            0,
+            0,
+            32,
+            4,
+            5
+        ],
+        "_cube_vector_core_type": "AiCore",
+        "_custom_vars": {
+            "12000001004": [],
+            "12000001104": [],
+            "12000111004": [],
+            "12000111104": [],
+            "12000221004": [],
+            "12000221104": [],
+            "12010001004": [],
+            "12010001104": [],
+            "12010111004": [],
+            "12010111104": [],
+            "14100000004": [],
+            "14100110004": [],
+            "14110000004": [],
+            "2000001004": [],
+            "2000001104": [],
+            "2000111004": [],
+            "2000111104": [],
+            "2000221004": [],
+            "2000221104": [],
+            "2001111004": [],
+            "2001111104": [],
+            "2001221004": [],
+            "2001221104": [],
+            "2002221004": [],
+            "2002221104": [],
+            "2010001004": [],
+            "2010001104": [],
+            "2010111004": [],
+            "2010111104": [],
+            "2011111004": [],
+            "2011111104": [],
+            "4100000004": [],
+            "4100110004": [],
+            "4101110004": [],
+            "4110000004": []
+        },
+        "_data_move_pad_list": [
+            [
+                1,
+                16
+            ]
+        ],
+        "_data_move_permute": [
+            0,
+            1
+        ],
+        "_data_move_src_pad_mode": [
+            0,
+            1
+        ],
+        "_is_ori_last_transpose": 1,
+        "_normal_vars": {
+            "12000001004": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "12000001104": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "12000111004": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "12000111104": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "12000221004": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "12000221104": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "12010001004": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "12010001104": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "12010111004": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "12010111104": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "14100000004": [
+                "_dim_0",
+                "_dim_1",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "14100110004": [
+                "_dim_0",
+                "_dim_1",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "14110000004": [
+                "_dim_0",
+                "_dim_1",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "2000001004": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "2000001104": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "2000111004": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "2000111104": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "2000221004": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "2000221104": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "2001111004": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "2001111104": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "2001221004": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "2001221104": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "2002221004": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "2002221104": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "2010001004": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "2010001104": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "2010111004": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "2010111104": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "2011111004": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "2011111104": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "4100000004": [
+                "_dim_0",
+                "_dim_1",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "4100110004": [
+                "_dim_0",
+                "_dim_1",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "4101110004": [
+                "_dim_0",
+                "_dim_1",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "4110000004": [
+                "_dim_0",
+                "_dim_1",
+                "_ub_first_factor",
+                "_block_factor"
+            ]
+        },
+        "_pattern": "Transdata",
+        "_permute": [
+            0,
+            1,
+            3,
+            2
+        ],
+        "_src_fuse": [
+            0,
+            1,
+            2
+        ],
+        "_src_pad_list": [
+            [
+                1,
+                16,
+                1
+            ]
+        ],
+        "_src_pad_mode": [
+            0,
+            2,
+            0
+        ],
+        "_ub_info": [
+            [
+                64896,
+                32384
+            ],
+            [
+                64896,
+                32384
+            ],
+            [
+                -1
+            ],
+            [
+                -1
+            ],
+            [
+                -1
+            ]
+        ],
+        "_vars": {
+            "12000001004": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "12000001104": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "12000111004": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "12000111104": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "12000221004": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "12000221104": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "12010001004": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "12010001104": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "12010111004": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "12010111104": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "14100000004": [
+                "_dim_0",
+                "_dim_1",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "14100110004": [
+                "_dim_0",
+                "_dim_1",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "14110000004": [
+                "_dim_0",
+                "_dim_1",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "2000001004": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "2000001104": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "2000111004": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "2000111104": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "2000221004": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "2000221104": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "2001111004": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "2001111104": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "2001221004": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "2001221104": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "2002221004": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "2002221104": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "2010001004": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "2010001104": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "2010111004": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "2010111104": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "2011111004": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "2011111104": [
+                "_dim_0",
+                "_dim_1",
+                "_dim_2",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "4100000004": [
+                "_dim_0",
+                "_dim_1",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "4100110004": [
+                "_dim_0",
+                "_dim_1",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "4101110004": [
+                "_dim_0",
+                "_dim_1",
+                "_ub_first_factor",
+                "_block_factor"
+            ],
+            "4110000004": [
+                "_dim_0",
+                "_dim_1",
+                "_ub_first_factor",
+                "_block_factor"
+            ]
+        },
+        "device_id": "0"
+    },
+    "coreType": "AiCore",
+    "deterministic": "ignore",
+    "globalworkspace_spec_workspace": {
+        "size": 32,
+        "type": 0
+    },
+    "kernelList": [
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transdata_de43a8005c742084fcabccd9dd4161379ba44969fe6a07442e9868021f637d04_1_2000221004"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transdata_de43a8005c742084fcabccd9dd4161379ba44969fe6a07442e9868021f637d04_1_2000221104"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transdata_de43a8005c742084fcabccd9dd4161379ba44969fe6a07442e9868021f637d04_1_2001221004"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transdata_de43a8005c742084fcabccd9dd4161379ba44969fe6a07442e9868021f637d04_1_2001221104"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transdata_de43a8005c742084fcabccd9dd4161379ba44969fe6a07442e9868021f637d04_1_2002221004"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transdata_de43a8005c742084fcabccd9dd4161379ba44969fe6a07442e9868021f637d04_1_2002221104"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transdata_de43a8005c742084fcabccd9dd4161379ba44969fe6a07442e9868021f637d04_1_2010111004"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transdata_de43a8005c742084fcabccd9dd4161379ba44969fe6a07442e9868021f637d04_1_2010111104"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transdata_de43a8005c742084fcabccd9dd4161379ba44969fe6a07442e9868021f637d04_1_2000111004"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transdata_de43a8005c742084fcabccd9dd4161379ba44969fe6a07442e9868021f637d04_1_2000111104"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transdata_de43a8005c742084fcabccd9dd4161379ba44969fe6a07442e9868021f637d04_1_2011111004"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transdata_de43a8005c742084fcabccd9dd4161379ba44969fe6a07442e9868021f637d04_1_2011111104"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transdata_de43a8005c742084fcabccd9dd4161379ba44969fe6a07442e9868021f637d04_1_2001111004"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transdata_de43a8005c742084fcabccd9dd4161379ba44969fe6a07442e9868021f637d04_1_2001111104"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transdata_de43a8005c742084fcabccd9dd4161379ba44969fe6a07442e9868021f637d04_1_2010001004"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transdata_de43a8005c742084fcabccd9dd4161379ba44969fe6a07442e9868021f637d04_1_2010001104"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transdata_de43a8005c742084fcabccd9dd4161379ba44969fe6a07442e9868021f637d04_1_2000001004"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transdata_de43a8005c742084fcabccd9dd4161379ba44969fe6a07442e9868021f637d04_1_2000001104"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transdata_de43a8005c742084fcabccd9dd4161379ba44969fe6a07442e9868021f637d04_1_12000221004"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transdata_de43a8005c742084fcabccd9dd4161379ba44969fe6a07442e9868021f637d04_1_12000221104"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transdata_de43a8005c742084fcabccd9dd4161379ba44969fe6a07442e9868021f637d04_1_12010111004"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transdata_de43a8005c742084fcabccd9dd4161379ba44969fe6a07442e9868021f637d04_1_12010111104"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transdata_de43a8005c742084fcabccd9dd4161379ba44969fe6a07442e9868021f637d04_1_12000111004"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transdata_de43a8005c742084fcabccd9dd4161379ba44969fe6a07442e9868021f637d04_1_12000111104"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transdata_de43a8005c742084fcabccd9dd4161379ba44969fe6a07442e9868021f637d04_1_12010001004"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transdata_de43a8005c742084fcabccd9dd4161379ba44969fe6a07442e9868021f637d04_1_12010001104"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transdata_de43a8005c742084fcabccd9dd4161379ba44969fe6a07442e9868021f637d04_1_12000001004"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transdata_de43a8005c742084fcabccd9dd4161379ba44969fe6a07442e9868021f637d04_1_12000001104"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transdata_de43a8005c742084fcabccd9dd4161379ba44969fe6a07442e9868021f637d04_1_4100110004"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transdata_de43a8005c742084fcabccd9dd4161379ba44969fe6a07442e9868021f637d04_1_4101110004"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transdata_de43a8005c742084fcabccd9dd4161379ba44969fe6a07442e9868021f637d04_1_4110000004"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transdata_de43a8005c742084fcabccd9dd4161379ba44969fe6a07442e9868021f637d04_1_4100000004"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transdata_de43a8005c742084fcabccd9dd4161379ba44969fe6a07442e9868021f637d04_1_14100110004"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transdata_de43a8005c742084fcabccd9dd4161379ba44969fe6a07442e9868021f637d04_1_14110000004"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_transdata_de43a8005c742084fcabccd9dd4161379ba44969fe6a07442e9868021f637d04_1_14100000004"
+        }
+    ],
+    "kernelName": "te_transdata_de43a8005c742084fcabccd9dd4161379ba44969fe6a07442e9868021f637d04_1",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping": [],
+    "opParaSize": 20,
+    "parameters": [
+        null,
+        null,
+        null
+    ],
+    "sha256": "c71e91d8cec8bd588bac04500a5228633eda06cbb457d8dd7ab5e79e536ee6ac"
+}

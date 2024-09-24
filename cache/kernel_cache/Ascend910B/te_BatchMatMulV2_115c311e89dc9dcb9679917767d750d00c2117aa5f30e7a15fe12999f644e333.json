@@ -1,0 +1,1023 @@
+{
+    "binFileName": "te_BatchMatMulV2_115c311e89dc9dcb9679917767d750d00c2117aa5f30e7a15fe12999f644e333",
+    "binFileSuffix": ".o",
+    "blockDim": -1,
+    "compileInfo": {
+        "_cube_vector_core_type": "AiCore",
+        "_pattern": "Matmul",
+        "binary_attrs": {
+            "bias_flag": false,
+            "nd_flag": true,
+            "split_k_flag": false,
+            "weight_nz": false,
+            "zero_flag": false
+        },
+        "binary_mode_flag": true,
+        "block_dim": {},
+        "correct_range_flag": false,
+        "device_id": "0",
+        "dynamic_mode": "dynamic_mknb",
+        "format_a": "ND",
+        "format_b": "ND",
+        "fused_double_operand_num": 1,
+        "hardware_info": {
+            "BT_SIZE": 0,
+            "CORE_NUM": 30,
+            "Intrinsic_data_move_l0c2ub": true,
+            "Intrinsic_data_move_l12ub": true,
+            "Intrinsic_data_move_out2l1_nd2nz": false,
+            "Intrinsic_fix_pipe_l0c2out": false,
+            "L0A_SIZE": 65536,
+            "L0B_SIZE": 65536,
+            "L0C_SIZE": 262144,
+            "L1_SIZE": 1048576,
+            "L2_SIZE": 67108864,
+            "UB_SIZE": 262144,
+            "load3d_constraints": "1"
+        },
+        "sparse_4to2_flag": false
+    },
+    "coreType": "AiCore",
+    "deterministic": "ignore",
+    "globalworkspace_spec_workspace": {
+        "size": 32,
+        "type": 0
+    },
+    "kernelList": [
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133842"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133586"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_134098"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133140"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133652"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133396"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133908"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133268"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133780"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133524"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_134036"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133172"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133684"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133428"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133940"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133300"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133812"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133556"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_134068"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133204"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133716"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133460"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133972"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133332"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133844"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133588"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_134100"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133121"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133633"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133377"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133889"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133653"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133397"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133909"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133269"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133781"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133525"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_134037"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133173"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133685"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133429"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133941"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133301"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133813"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133557"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_134069"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133205"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133717"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133461"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133973"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133333"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133845"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133589"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_134101"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_1181737"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_137217"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_137729"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_137473"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_137985"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_141313"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_141825"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_141569"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_142081"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_145409"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_145921"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_145665"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_146177"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_149505"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_150017"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_149761"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_150273"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_153601"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_154113"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_153857"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_154369"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_157697"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_158209"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_157953"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_158465"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_161793"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_162305"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_162049"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_162561"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_165889"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_166401"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_166145"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133120"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133632"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133376"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133888"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_137216"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_137728"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_137472"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_137984"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_141312"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_141824"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_141568"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_142080"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_145408"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_145920"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_145664"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_146176"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_149504"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_150016"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_149760"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_150272"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_153600"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_154112"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_153856"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_154368"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_157696"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_158208"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_157952"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_158464"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_161792"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_162304"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_162048"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133544"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_134056"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133200"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133712"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133456"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133968"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133328"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133840"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133584"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_134096"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133186"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133698"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133442"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133954"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133314"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133826"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133570"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_134082"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133194"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133706"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133450"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133962"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133322"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133834"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133578"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_134090"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133202"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133714"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133458"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133970"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133330"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_162560"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_165888"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_166400"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_166144"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_166656"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133248"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133760"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133504"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_134016"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133152"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133664"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133408"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133920"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133280"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133792"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133536"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_134048"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133128"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133640"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133384"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133896"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133256"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133768"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133512"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_134024"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133160"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133672"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133416"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133928"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133288"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133800"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133457"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133969"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133329"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133841"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133585"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_134097"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133187"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133699"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133443"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133955"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133315"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133827"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133571"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_134083"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133195"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133707"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133451"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133963"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133323"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133835"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133579"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_134091"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133203"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133715"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133459"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133971"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133331"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133843"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133587"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_134099"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133141"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_166657"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133249"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133761"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133505"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_134017"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133153"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133665"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133409"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133921"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133281"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133793"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133537"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_134049"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133129"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133641"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133385"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133897"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133257"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133769"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133513"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_134025"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133161"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133673"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133417"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133929"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133289"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133801"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133545"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_134057"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133201"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1_133713"
+        }
+    ],
+    "kernelName": "te_batchmatmulv2_0d1d68239a1ff478b548639d33ef30c4622b65168fb9c5dfcaf161017f00c7a9_1",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping": [],
+    "opParaSize": 300,
+    "parameters": [
+        null,
+        null,
+        null,
+        null
+    ],
+    "sha256": "0c957788b52d938fd1ceb9a2a85574266dc93adcdf4752235054ece8fdd8d00d"
+}

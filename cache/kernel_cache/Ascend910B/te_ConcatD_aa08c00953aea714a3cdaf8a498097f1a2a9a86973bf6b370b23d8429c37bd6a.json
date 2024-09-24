@@ -1,0 +1,126 @@
+{
+    "binFileName": "te_ConcatD_aa08c00953aea714a3cdaf8a498097f1a2a9a86973bf6b370b23d8429c37bd6a",
+    "binFileSuffix": ".o",
+    "blockDim": -1,
+    "compileInfo": {
+        "_concat_vars": [
+            [
+                false,
+                false
+            ],
+            [
+                false,
+                true
+            ]
+        ],
+        "_core_num": 30,
+        "_cube_vector_core_type": "AiCore",
+        "_custom_vars": {
+            "3000001": [],
+            "4000000": [],
+            "4000001": [],
+            "4100000": []
+        },
+        "_int64_mode": true,
+        "_is_const": false,
+        "_is_unknown_rank": false,
+        "_normal_vars": {
+            "3000001": [
+                "_dim_1_1",
+                "_block_factor_1",
+                "_ub_factor_1",
+                "_offset_1"
+            ],
+            "4000000": [
+                "_dim_1_1",
+                "_block_factor_0",
+                "_ub_factor_0",
+                "_ub_factor_1",
+                "_offset_1"
+            ],
+            "4000001": [
+                "_dim_1_1",
+                "_block_factor_1",
+                "_ub_factor_0",
+                "_ub_factor_1",
+                "_offset_1"
+            ],
+            "4100000": [
+                "_dim_1_1",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ]
+        },
+        "_only_const_tiling": false,
+        "_ori_axis": 2,
+        "_pattern": "Concat",
+        "_ub_block_size": 32,
+        "_ub_size": 262144,
+        "_vars": {
+            "3000001": [
+                "_dim_1_1",
+                "_block_factor_1",
+                "_ub_factor_1",
+                "_offset_1"
+            ],
+            "4000000": [
+                "_dim_1_1",
+                "_block_factor_0",
+                "_ub_factor_0",
+                "_ub_factor_1",
+                "_offset_1"
+            ],
+            "4000001": [
+                "_dim_1_1",
+                "_block_factor_1",
+                "_ub_factor_0",
+                "_ub_factor_1",
+                "_offset_1"
+            ],
+            "4100000": [
+                "_dim_1_1",
+                "_block_factor_0",
+                "_ub_factor_0"
+            ]
+        },
+        "attr_idx": 0,
+        "attr_name": "concat_dim",
+        "concat_dim": 2,
+        "device_id": "0"
+    },
+    "coreType": "AiCore",
+    "deterministic": "ignore",
+    "globalworkspace_spec_workspace": {
+        "size": 32,
+        "type": 0
+    },
+    "kernelList": [
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_concatd_fe82574dd40a3c5febf3528607ff17b74d90b02239d2eac40cc133c3c84d00e3_1_3000001"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_concatd_fe82574dd40a3c5febf3528607ff17b74d90b02239d2eac40cc133c3c84d00e3_1_4000000"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_concatd_fe82574dd40a3c5febf3528607ff17b74d90b02239d2eac40cc133c3c84d00e3_1_4000001"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_concatd_fe82574dd40a3c5febf3528607ff17b74d90b02239d2eac40cc133c3c84d00e3_1_4100000"
+        }
+    ],
+    "kernelName": "te_concatd_fe82574dd40a3c5febf3528607ff17b74d90b02239d2eac40cc133c3c84d00e3_1",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping": [],
+    "opParaSize": 40,
+    "parameters": [
+        null,
+        null,
+        null,
+        null
+    ],
+    "sha256": "1e1bd2cb8c37b9224ef906d8f16c26353c97ea0f95a0f6b8865f5b395c4607d4"
+}

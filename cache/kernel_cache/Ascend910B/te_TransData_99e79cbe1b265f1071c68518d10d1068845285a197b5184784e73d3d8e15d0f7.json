@@ -1,0 +1,37 @@
+{
+    "binFileName": "te_TransData_99e79cbe1b265f1071c68518d10d1068845285a197b5184784e73d3d8e15d0f7",
+    "binFileSuffix": ".o",
+    "blockDim": -1,
+    "compileInfo": {
+        "_cube_vector_core_type": "AiCore",
+        "device_id": "0",
+        "is_tik": true,
+        "vars": {
+            "block_dim": 30,
+            "group": 1,
+            "ub_size": 130560,
+            "vnc_fp32_flag": 0
+        }
+    },
+    "coreType": "AiCore",
+    "deterministic": "ignore",
+    "globalworkspace_spec_workspace": {
+        "size": 32,
+        "type": 0
+    },
+    "kernelName": "te_transdata_18f61705abed90cee6f0f175ee112f7f95d5bb0ba3c21c7e7b8af3b4466a093c_1__kernel0",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping": [
+        -1
+    ],
+    "opParaSize": 768,
+    "parameters": [
+        null,
+        {
+            "dtype": "float32",
+            "init_value": 0.0
+        },
+        null
+    ],
+    "sha256": "e18601591e57edb5685d19209e89c5276d8cf9b9319c3b59f6bfeb4543634766"
+}

@@ -13,7 +13,7 @@ results = []
 
 for i in range(n):
     # perf文件夹路径,使用glob匹配到/PROF*路径
-    dir_to_perf = glob.glob(f'sd_perf/test{i}/PROF*')[0]
+    dir_to_perf = glob.glob(f'sd_perf/test{i}/PROF*')
     hbm_path = f'{dir_to_perf}/device_0/sqlite/hbm.db'
     util_path = f'{dir_to_perf}/mindstudio_profiler_output'
     if hbm_path and util_path:
@@ -28,7 +28,7 @@ for i in range(n):
         数据格式为形如：{"name": "Average", "ts": "1727167523354587.200", "pid": 480, "tid": 0, 
         "args": {"Utilization(%)": "81.229140"}, "ph": "C"}的字典组成的列表
         '''
-        json_file_path = glob.glob(f'{util_path}/msprof*.json')[0]
+        json_file_path = glob.glob(f'{util_path}/msprof*.json')
         with open(json_file_path, 'r') as file:
             trace_data = json.load(file)
         

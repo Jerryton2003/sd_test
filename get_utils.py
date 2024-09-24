@@ -47,7 +47,7 @@ for i in range(n):
         #结果保存到results
         results.append({
             "n": n,
-            "bindwidth_avg": bindwidth_avg,
+            "bandwidth_avg": bandwidth_avg,
             "npUtil_avg": npUtil_avg
         })
 

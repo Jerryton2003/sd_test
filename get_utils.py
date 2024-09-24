@@ -18,6 +18,7 @@ for i in range(n):
     util_path = f'{dir_to_perf}/mindstudio_profiler_output'
     if hbm_path and util_path:
         # 对hbm,数据格式为.db,连接到 SQLite 数据库
+        print(hbm_path)
         conn = sqlite3.connect(hbm_path)
         hbm_df = pd.read_sql_query("SELECT * FROM HBMbwData", conn)
         hbm_df_grouped = hbm_df.groupby(hbm_df['timestamp'])['bandwidth'].sum().reset_index()

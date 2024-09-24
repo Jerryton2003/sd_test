@@ -1,5 +1,4 @@
 import pandas as pd
-import tqdm
 #处理db文件
 import sqlite3
 #处理json文件
@@ -12,7 +11,7 @@ import glob
 n = 54
 results = []
 
-for i in tqdm(range(n)):
+for i in range(n):
     # perf文件夹路径,使用glob匹配到/PROF*路径
     dir_to_perf = glob.glob(f'sd_perf/test{i}/PROF*')[0]
     hbm_path = f'{dir_to_perf}/device_0/sqlite/hbm.db'

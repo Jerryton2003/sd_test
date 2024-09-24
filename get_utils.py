@@ -8,7 +8,7 @@ import glob
 
 
 #一共54个setting, 结果存储到列表
-n = 54
+n = 1
 results = []
 
 for i in range(n):

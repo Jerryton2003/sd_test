@@ -267,7 +267,7 @@ def monitor_gpu_util(n, power_list):
     output_path = f"sd_perf/test{n}/"
     cmd_pwr = ["npu-smi", "info", "watch"]
     cmd_utl = ["msprof", f"--output={output_path}", "--sys-devices=all",
-            "--sys-period=300", "--ai-core=on", "--sys-hardware-mem=on"]
+            "--sys-period=60", "--ai-core=on", "--sys-hardware-mem=on"]
     process = subprocess.Popen(cmd_pwr, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     process1 = subprocess.Popen(cmd_utl, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     # start_time = time.time()

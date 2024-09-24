@@ -14,7 +14,7 @@ results = []
 for i in range(n):
     # perf文件夹路径,使用glob匹配到/PROF*路径
     dir_to_perf = glob.glob(f'sd_perf/test{i}/PROF*')[0]
-    hbm_path = f'{dir_to_perf}/device_0/sqlite'
+    hbm_path = f'{dir_to_perf}/device_0/sqlite/hbm.db'
     util_path = f'{dir_to_perf}/mindstudio_profiler_output'
     if hbm_path and util_path:
         # 对hbm,数据格式为.db,连接到 SQLite 数据库

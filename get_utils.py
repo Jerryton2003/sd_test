@@ -53,7 +53,7 @@ for i in range(n):
         print(results)
         # 将 results 转换为 DataFrame
         new_data_df = pd.DataFrame(results)
-
+        print(new_data_df)
         # 读取现有的 CSV 文件
         csv_file_path = 'inference_results.csv'
         existing_data_df = pd.read_csv(csv_file_path)

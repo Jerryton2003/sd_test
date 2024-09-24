@@ -35,10 +35,10 @@ for i in range(n):
         # 提取 Utilization 数据
         utilization_values = []
         for event in trace_data:
-        if event.get('name') == 'Average':
-            utilization = event.get('args', {}).get('Utilization(%)')
-            if utilization is not None:
-                utilization_values.append(float(utilization))
+            if event.get('name') == 'Average':
+                utilization = event.get('args', {}).get('Utilization(%)')
+                if utilization is not None:
+                    utilization_values.append(float(utilization))
         
         # 计算平均值
         if utilization_values:

@@ -260,7 +260,7 @@ def put_watermark(img, wm_encoder=None):
         img = Image.fromarray(img[:, :, ::-1])
     return img
 
-def monitor_gpu_util(n, gpu_util_list, mc_util_list, power_list):
+def monitor_gpu_util(n, power_list):
     """
     监控GPU和MC的利用率，并将结果存储到列表中
     """
@@ -496,10 +496,10 @@ def main(opt):
 
         profiler = Profile(start_step=int(os.getenv("PROFILE_START_STEP", 10)),
                         profile_type=os.getenv("PROFILE_TYPE"))
-        gpu_util_list = mp.Manager().list()
-        mc_util_list = mp.Manager().list()
+        # gpu_util_list = mp.Manager().list()
+        # mc_util_list = mp.Manager().list()
         power_list = mp.Manager().list()
-        monitor_process = mp.Process(target=monitor_gpu_util, args=(param_set, power_list))
+        monitor_process = mp.Process(target=monitor_gpu_util, args=(n, power_list))
 ###     
         for t in range(test_w + test_t):
             data = [batch_size * [prompt]]
@@ -585,8 +585,9 @@ def main(opt):
         
         avg = timings.sum()/(batch_size * (test_t))
         throughput = 1000 / avg
+        power_avg = np.mean(power_list)
         results.append({
-                    "n": n
+                    "n": n,
                     "Latency (ms)": avg,
                     "Throughput (samples/s)": throughput,
                     "batch_size":batch_size,
@@ -594,15 +595,17 @@ def main(opt):
                     "steps":opt.steps,
                     "height":opt.H,
                     "width":opt.W,
-                    "GPUTL Array": gpu_util_list,
-                    "MCUTL Array": mc_util_list,
-                    "POWER Array": power_list
+                    # "GPUTL Array": gpu_util_list,
+                    # "MCUTL Array": mc_util_list,
+                    "POWER Avg": power_avg
                 })
         # 保存结果到CSV
         csv_file_path = 'inference_results.csv'
         try:
             with open(csv_file_path, mode='a', newline='') as file:
-                writer = csv.DictWriter(file, fieldnames=["n", "Latency (ms)", "Throughput (samples/s)","batch_size","sampler","steps","height","width", "GPUTL Array", "MCUTL Array","POWER Array"])
+                writer = csv.DictWriter(file, fieldnames=["n", "Latency (ms)", "Throughput (samples/s)","batch_size",
+                        "sampler","steps","height","width","POWER Array"])
+                # writer = csv.DictWriter(file, fieldnames=["n", "Latency (ms)", "Throughput (samples/s)","batch_size","sampler","steps","height","width", "GPUTL Array", "MCUTL Array","POWER Array"])
                 if file.tell() == 0:  # 检查文件指针位置，0表示文件为空
                     writer.writeheader()
 

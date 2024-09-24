@@ -604,7 +604,7 @@ def main(opt):
         try:
             with open(csv_file_path, mode='a', newline='') as file:
                 writer = csv.DictWriter(file, fieldnames=["n", "Latency (ms)", "Throughput (samples/s)","batch_size",
-                        "sampler","steps","height","width","POWER Array"])
+                        "sampler","steps","height","width","POWER Avg"])
                 # writer = csv.DictWriter(file, fieldnames=["n", "Latency (ms)", "Throughput (samples/s)","batch_size","sampler","steps","height","width", "GPUTL Array", "MCUTL Array","POWER Array"])
                 if file.tell() == 0:  # 检查文件指针位置，0表示文件为空
                     writer.writeheader()

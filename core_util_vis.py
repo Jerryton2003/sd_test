@@ -33,17 +33,3 @@ average_utilization = [sum(values) / len(values) for values in zip(*selected_cor
 # 写入 CSV
 average_df = pd.DataFrame(average_utilization, columns=['Average Utilization'])
 average_df.to_csv('average_utilization.csv', index=False)
-
-# 绘制曲线图
-plt.figure(figsize=(200, 10))
-
-for core, utils in selected_cores.items():
-    plt.plot(utils, label=core)
-
-plt.title('Utilization Over Time for Core0 to Core30')
-plt.xlabel('Timestamp')
-plt.ylabel('Utilization (%)')
-plt.legend()
-plt.grid(True)
-plt.savefig('utilization_plot.png')
-plt.show()

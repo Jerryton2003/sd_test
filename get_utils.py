@@ -7,8 +7,8 @@ import json
 import glob
 
 
-#一共54个setting, 结果存储到列表
-n = 54
+#一共56个setting, 结果存储到列表
+n = 56
 results = []
 
 for i in range(n):
@@ -50,19 +50,21 @@ for i in range(n):
             "bandwidth_avg": bandwidth_avg,
             "npUtil_avg": npUtil_avg
         })
-        print(results)
-        # 将 results 转换为 DataFrame
-        new_data_df = pd.DataFrame(results)
-        print(new_data_df)
-        # 读取现有的 CSV 文件
-        csv_file_path = 'inference_results.csv'
-        existing_data_df = pd.read_csv(csv_file_path)
-
-        # 合并两个 DataFrame，按 'n' 列对齐
-        merged_df = pd.merge(existing_data_df, new_data_df, on='n', how='left')
-
-        # 写回到 CSV 文件
-        merged_df.to_csv(csv_file_path, index=False)
+        
     else:
         print(f'Test{i} has not been executed')
         break
+    
+print(results)
+# 将 results 转换为 DataFrame
+new_data_df = pd.DataFrame(results)
+print(new_data_df)
+# 读取现有的 CSV 文件
+csv_file_path = 'inference_results.csv'
+existing_data_df = pd.read_csv(csv_file_path)
+
+# 合并两个 DataFrame，按 'n' 列对齐
+merged_df = pd.merge(existing_data_df, new_data_df, on='n', how='left')
+
+# 写回到 CSV 文件
+merged_df.to_csv(csv_file_path, index=False)

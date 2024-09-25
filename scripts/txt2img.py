@@ -591,7 +591,7 @@ def main(opt):
                     "Latency (ms)": avg,
                     "Throughput (samples/s)": throughput,
                     "batch_size":batch_size,
-                    "sampler":param_set[1],
+                    "sampler":param_set[0],
                     "steps":opt.steps,
                     "height":opt.H,
                     "width":opt.W,
